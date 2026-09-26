@@ -143,7 +143,7 @@ export default function HomePage({ lang }) {
           <div className="wrap">
             <div className="section-head">
               <span className="eyebrow">{c.ai.eyebrow}</span>
-              <h2 className="h2" style={{ maxWidth: "24ch" }}><Rich text={c.ai.title} /></h2>
+              <h2 className="h2"><Rich text={c.ai.title} /></h2>
               <p className="section-intro" style={{ maxWidth: "60ch" }}><Rich text={c.ai.intro} /></p>
             </div>
             <div className="grid-ai">

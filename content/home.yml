@@ -173,8 +173,8 @@ work:
   eyebrow: { en: "Selected Work", vi: "Dự án tiêu biểu" }
   title: { en: "Five programs, owned from blank page to ROI*.*", vi: "Năm chương trình, phụ trách từ trang giấy trắng đến ROI*.*" }
   intro:
-    en: "Each card opens a full case study: the business problem, my role, \nhow it was built, and the measured outcome."
-    vi: "Mỗi thẻ mở ra một case study đầy đủ: bài toán kinh doanh, vai trò của tôi, \ncách chương trình được xây dựng và kết quả đo được."
+    en: "Each card opens a full case study: the business problem, my role, how it was built, and the measured outcome."
+    vi: "Mỗi thẻ mở ra một case study đầy đủ: bài toán kinh doanh, vai trò của tôi, cách chương trình được xây dựng và kết quả đo được."
   link: { en: "View Case Study →", vi: "Xem case study →" }
   cases:
     - slug: "retail-talent"
@@ -227,11 +227,11 @@ work:
 ai:
   eyebrow: { en: "AI Ain't Doing Slop", vi: "AI Ain't Doing Slop" }
   title:
-    en: "AI-powered work by \na non-technical practitioner*.*"
-    vi: "Dự án ứng dụng AI \ncủa một người không làm kỹ thuật*.*"
+    en: "AI-powered work by a non-technical practitioner*.*"
+    vi: "Dự án ứng dụng AI của một người không làm kỹ thuật*.*"
   intro:
-    en: "I treat AI as a tool that magnifies the quality of the work behind it. \nPeople absorb mess; AI needs clarity, structure, context and instruction."
-    vi: "Tôi xem AI là công cụ khuếch đại chất lượng của công việc phía sau nó. \nCon người chịu được sự lộn xộn; AI thì cần rõ ràng, có cấu trúc, bối cảnh và chỉ dẫn."
+    en: "I treat AI as a tool that magnifies the quality of the work behind it. People absorb mess; AI needs clarity, structure, context and instruction."
+    vi: "Tôi xem AI là công cụ khuếch đại chất lượng của công việc phía sau nó. Con người chịu được sự lộn xộn; AI thì cần rõ ràng, có cấu trúc, bối cảnh và chỉ dẫn."
   projects:
     - label: { en: "Project 01", vi: "Dự án 01" }
       title: { en: "Project title goes here", vi: "Tên dự án" }
@@ -282,8 +282,8 @@ process:
 contact:
   eyebrow: { en: "Contact", vi: "Liên hệ" }
   title:
-    en: "Let's design \nsomething that sticks*?*"
-    vi: "Cùng thiết kế \nđiều gì đó thật sự đọng lại*?*"
+    en: "Let's design something that sticks*?*"
+    vi: "Cùng thiết kế điều gì đó thật sự đọng lại*?*"
   intro:
     en: "Open to Learning Experience Designer, Instructional Designer, Senior L&D, Performance Management, HR Business Partner, and Employee Engagement roles. I reply within two business days."
     vi: "Sẵn sàng cho các vị trí Learning Experience Designer, Instructional Designer, Senior L&D, Performance Management, HR Business Partner và Employee Engagement. Tôi phản hồi trong vòng hai ngày làm việc."
