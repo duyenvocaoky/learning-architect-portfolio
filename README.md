@@ -33,13 +33,16 @@ python3 -m http.server 4173 --directory out
 ```
 Mở http://localhost:4173
 
-## Kiểm tra tự động trên GitHub
+## Đưa lên mạng (GitHub Pages)
 
-Kho đang để **riêng tư**. Mỗi lần đẩy thay đổi lên nhánh `main`, GitHub tự kiểm tra:
-lỗi code, lỗ hổng thư viện, đủ tiếng Anh + tiếng Việt, đóng gói được. Xem kết quả ở tab **Actions**
-(xanh = ổn, đỏ = có lỗi cần sửa).
+Link: https://duyenvocaoky.github.io/learning-architect-portfolio/
 
-Trang **chưa** được đưa lên mạng. Bước này sẽ thêm khi chuyển sang Hostinger.
+Mỗi lần đẩy thay đổi lên nhánh `main`, GitHub tự kiểm tra (lỗi code, lỗ hổng thư viện,
+đủ tiếng Anh + tiếng Việt, đóng gói được) rồi cập nhật trang sau khoảng 2 phút.
+Nếu có lỗi, việc cập nhật dừng lại và trang đang chạy giữ nguyên bản cũ.
+Xem tiến trình ở tab **Actions** (xanh = ổn, đỏ = có lỗi cần sửa).
+
+Pull request chỉ được kiểm tra, không đưa lên mạng cho tới khi gộp vào `main`.
 
 ## Quay lại bản cũ khi bản mới bị lỗi
 

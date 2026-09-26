@@ -1,0 +1,53 @@
+# Kiểm tra + đưa trang lên GitHub Pages.
+# - Pull request: chỉ kiểm tra (lỗi code, lỗ hổng thư viện, đủ EN/VI, đóng gói được).
+# - Đẩy lên main: kiểm tra rồi đưa lên https://duyenvocaoky.github.io/learning-architect-portfolio/
+#   Nếu bất kỳ bước nào lỗi → dừng, trang đang chạy giữ nguyên bản cũ.
+name: Check & Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm audit --audit-level=high --omit=dev
+      - name: Build (content check runs first)
+        run: npm run build
+        env:
+          BASE_PATH: /learning-architect-portfolio
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
