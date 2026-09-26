@@ -1,152 +1,170 @@
 import Link from "next/link";
 import { getContent } from "@/lib/content";
 import { asset, pagePath } from "@/lib/paths";
-import LangSwitch from "@/components/LangSwitch";
+import SiteNav from "@/components/SiteNav";
+import Footer from "@/components/Footer";
+import PostToc from "@/components/PostToc";
 
-/* Case study layout (Coral palette). Words come from content/<slug>.yml */
+/* Case study page — same layout as a blog post: sticky table of contents on the left,
+   one reading column, numbered timeline for the steps, results in the coral box.
+   Words come from content/<slug>.yml; every section is optional. */
+
+function Paras({ items }) {
+  if (!items) return null;
+  return (Array.isArray(items) ? items : [items]).map((p, i) => <p key={i}>{p}</p>);
+}
+
+function DotList({ items }) {
+  if (!items?.length) return null;
+  return (
+    <ul className="dot-list">
+      {items.map((x) => <li key={x}>{x}</li>)}
+    </ul>
+  );
+}
+
+function Stats({ items, small }) {
+  if (!items?.length) return null;
+  return (
+    <div className={`grid-stats${small ? " small" : ""}`}>
+      {items.map((s) => (
+        <div key={s.label} className="card tile">
+          <div className="stat-value">
+            {s.value}
+            {s.unit && <span className="stat-unit">{s.unit}</span>}
+          </div>
+          <div className="stat-label">{s.label}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function CaseStudyPage({ slug, lang }) {
   const common = getContent("common", lang);
   const c = getContent(slug, lang);
   const t = common.case;
   const home = pagePath(lang, "/");
-  const f = c.context.facts;
-  const images = c.visuals.images || [];
+  const images = c.visuals?.images || [];
+  const heading = (sec) => sec.title || sec.eyebrow;
+
+  // Table of contents: short section names (the eyebrow), in page order.
+  const toc = [];
+  if (c.context) toc.push({ id: "context", text: c.context.eyebrow });
+  if (c.objective) toc.push({ id: "objective", text: c.objective.eyebrow });
+  if (c.role) toc.push({ id: "role", text: c.role.eyebrow });
+  if (c.execution) toc.push({ id: "execution", text: c.execution.eyebrow });
+  if (c.results) toc.push({ id: "results", text: c.results.eyebrow });
+  if (c.reflection) toc.push({ id: "reflection", text: c.reflection.eyebrow });
+  if (images.length || c.visuals?.resource_url) toc.push({ id: "visuals", text: c.visuals.eyebrow });
 
   return (
     <div id="top">
-      <div className="nav-bar">
-        <nav className="nav case">
-          <Link href={`${home}#work`} className="back-link">{t.back}</Link>
-          <div className="nav-right">
-            <LangSwitch lang={lang} path={`/work/${slug}/`} />
-            <Link href={home} className="brand">
-              {common.brand}
-              <span className="accent">.</span>
-            </Link>
-          </div>
-        </nav>
-      </div>
-
-      <main>
-        <section className="case-hero">
-          <div className="wrap">
-            <span className="case-chip">{c.hero.chip}</span>
+      <SiteNav common={common} lang={lang} path={`/work/${slug}/`} current="work" />
+      <main className="blog">
+        <div className="post-layout">
+          <PostToc label={t.toc} items={toc} />
+          <article className="post">
+            <Link href={`${home}#work`} className="post-back">{t.back}</Link>
+            <p className="post-kicker">{c.hero.chip}</p>
             <h1>{c.hero.title}</h1>
-            <p className="case-lead">{c.hero.intro}</p>
-          </div>
-        </section>
+            <p className="post-intro">{c.hero.intro}</p>
 
-        <section className="section case-section">
-          <div className="wrap">
-            <div className="case-label">{c.context.eyebrow}</div>
-            <div className="case-facts">
-              {[
-                [t.period, f.period],
-                [t.company, f.company],
-                [t.domain, f.domain],
-                [t.methods, f.methods],
-              ].map(([label, value]) => (
-                <div key={label}>
-                  <div className="case-fact-label">{label}</div>
-                  <div className="case-fact-value">{value}</div>
-                </div>
-              ))}
-            </div>
-            <p className="case-p lead">{c.context.lead}</p>
-            <p className="case-p">{c.context.body}</p>
-          </div>
-        </section>
-
-        <section className="section deep case-section">
-          <div className="wrap">
-            <div className="case-label">{c.objective.eyebrow}</div>
-            <h2 className="case-h2">{c.objective.title}</h2>
-            <ul className="dot-list">
-              {c.objective.items.map((x) => <li key={x}>{x}</li>)}
-            </ul>
-          </div>
-        </section>
-
-        <section className="section case-section">
-          <div className="wrap">
-            <div className="case-label">{c.role.eyebrow}</div>
-            <h2 className="case-h2">{c.role.title}</h2>
-            <p className="case-p">{c.role.lead}</p>
-            <ul className="dot-list">
-              {c.role.items.map((x) => <li key={x}>{x}</li>)}
-            </ul>
-          </div>
-        </section>
-
-        <section className="section deep case-section">
-          <div className="wrap">
-            <div className="case-label">{c.execution.eyebrow}</div>
-            <h2 className="case-h2">{c.execution.title}</h2>
-            <div className="grid-steps">
-              {c.execution.steps.map((s, i) => (
-                <div key={s} className="card tile">
-                  <div className="tile-num">{String(i + 1).padStart(2, "0")}</div>
-                  <p>{s}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="case-section band">
-          <div className="wrap">
-            <div className="case-label">{c.results.eyebrow}</div>
-            <h2 className="case-h2">{c.results.title}</h2>
-            <div className="grid-stats">
-              {c.results.headline.map((s) => (
-                <div key={s.label} className="card tile">
-                  <div className="stat-value">
-                    {s.value}
-                    {s.unit && <span className="stat-unit">{s.unit}</span>}
+            {c.context?.facts?.length > 0 && (
+              <dl className="post-facts">
+                {c.context.facts.map((f) => (
+                  <div key={f.label}>
+                    <dt>{f.label}</dt>
+                    <dd>{f.value}</dd>
                   </div>
-                  <div className="stat-label">{s.label}</div>
-                </div>
-              ))}
-            </div>
-            <div className="grid-stats small">
-              {c.results.secondary.map((s) => (
-                <div key={s.label} className="card tile">
-                  <div className="stat-value">{s.value}</div>
-                  <div className="stat-label">{s.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {images.length > 0 && (
-          <section className="section case-section">
-            <div className="wrap">
-              <div className="case-label">{c.visuals.eyebrow}</div>
-              <div className={`gallery${images.length === 1 ? " single" : ""}`}>
-                {images.map((img) => (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img key={img.src} src={asset(img.src)} alt={img.alt} loading="lazy" />
                 ))}
-              </div>
-              {c.visuals.resource_url && (
-                <div className="btn-row" style={{ marginTop: 32 }}>
-                  <a href={c.visuals.resource_url} target="_blank" rel="noopener noreferrer" className="btn primary">
-                    {c.visuals.resource_label}
-                  </a>
-                </div>
-              )}
-            </div>
-          </section>
-        )}
-      </main>
+              </dl>
+            )}
 
-      <footer className="case-footer">
-        <div className="wrap">
-          <Link href={`${home}#work`} className="back-link">{t.back_all}</Link>
-          <span className="footer-note">{common.footer.tagline}</span>
+            {c.context && (
+              <section id="context">
+                <h2>{heading(c.context)}</h2>
+                <Paras items={c.context.lead} />
+                <Paras items={c.context.body} />
+              </section>
+            )}
+
+            {c.objective && (
+              <section id="objective">
+                <h2>{heading(c.objective)}</h2>
+                <Paras items={c.objective.lead} />
+                <DotList items={c.objective.items} />
+              </section>
+            )}
+
+            {c.role && (
+              <section id="role">
+                <h2>{heading(c.role)}</h2>
+                <Paras items={c.role.lead} />
+                <DotList items={c.role.items} />
+              </section>
+            )}
+
+            {c.execution && (
+              <section id="execution">
+                <h2>{heading(c.execution)}</h2>
+                <Paras items={c.execution.lead} />
+                <ol className="timeline">
+                  {c.execution.steps.map((s, i) => {
+                    const step = typeof s === "string" ? { text: s } : s;
+                    return (
+                      <li key={i}>
+                        {step.title && <h3>{step.title}</h3>}
+                        <p>{step.text}</p>
+                        {step.note && <p className="timeline-models">{step.note}</p>}
+                      </li>
+                    );
+                  })}
+                </ol>
+              </section>
+            )}
+
+            {c.results && (
+              <section id="results" className="post-outcome">
+                <h2>{heading(c.results)}</h2>
+                <Paras items={c.results.lead} />
+                <Stats items={c.results.headline} />
+                <Stats items={c.results.secondary} small />
+                <DotList items={c.results.items} />
+              </section>
+            )}
+
+            {c.reflection && (
+              <section id="reflection">
+                <h2>{heading(c.reflection)}</h2>
+                <Paras items={c.reflection.body} />
+              </section>
+            )}
+
+            {(images.length > 0 || c.visuals?.resource_url) && (
+              <section id="visuals">
+                <h2>{c.visuals.eyebrow}</h2>
+                {images.map((img) => (
+                  <a key={img.src} className="post-figure" href={asset(img.src)} target="_blank" rel="noopener noreferrer">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={asset(img.src)} alt={img.alt} loading="lazy" />
+                  </a>
+                ))}
+                {c.visuals.resource_url && (
+                  <div className="btn-row">
+                    <a href={c.visuals.resource_url} target="_blank" rel="noopener noreferrer" className="btn primary">
+                      {c.visuals.resource_label}
+                    </a>
+                  </div>
+                )}
+              </section>
+            )}
+
+            <Link href={`${home}#work`} className="post-back end">{t.back_all}</Link>
+          </article>
         </div>
-      </footer>
+      </main>
+      <Footer common={common} lang={lang} />
     </div>
   );
 }

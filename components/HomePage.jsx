@@ -27,8 +27,10 @@ export default function HomePage({ lang }) {
             <a href="#ai">{n.ai}</a>
             <a href="#process">{n.process}</a>
             <a href="#contact">{n.contact}</a>
+            <Link href={pagePath(lang, "/blog/")}>{n.blog}</Link>
           </div>
           <div className="nav-right">
+            <Link href={pagePath(lang, "/blog/")} className="nav-blog-m">{n.blog}</Link>
             <LangSwitch lang={lang} path="/" />
             <a href="#contact" className="btn primary sm">{n.cta}</a>
           </div>
@@ -141,7 +143,7 @@ export default function HomePage({ lang }) {
           <div className="wrap">
             <div className="section-head">
               <span className="eyebrow">{c.ai.eyebrow}</span>
-              <h2 className="h2" style={{ maxWidth: "24ch" }}><Rich text={c.ai.title} /></h2>
+              <h2 className="h2"><Rich text={c.ai.title} /></h2>
               <p className="section-intro" style={{ maxWidth: "60ch" }}><Rich text={c.ai.intro} /></p>
             </div>
             <div className="grid-ai">
@@ -210,7 +212,7 @@ export default function HomePage({ lang }) {
         </section>
       </main>
 
-      <Footer common={common} />
+      <Footer common={common} lang={lang} />
     </div>
   );
 }

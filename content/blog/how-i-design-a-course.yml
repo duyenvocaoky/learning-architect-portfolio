@@ -1,0 +1,116 @@
+# ─────────────────────────────────────────────────────────────
+# BÀI BLOG: Mình thiết kế một khóa học như thế nào
+# Cách sửa: xem hướng dẫn ở đầu file content/common.yml.
+# Ảnh: bỏ file vào public/blog/ rồi điền đường dẫn, ví dụ "/blog/khoa-hoc-bia.webp".
+# ─────────────────────────────────────────────────────────────
+
+meta:
+  title:
+    en: "How I design a course — Duyen Vo Cao Ky"
+    vi: "Mình thiết kế một khóa học như thế nào — Võ Cao Kỳ Duyên"
+  description:
+    en: "How I built a recruiting and interviewing eLearning course for regional managers, in 5 steps from outline to LMS launch."
+    vi: "Cách mình xây một khóa eLearning về tuyển dụng và phỏng vấn cho quản lý vùng, qua 5 bước từ outline đến lúc lên LMS."
+
+# Thẻ hiển thị ở trang Blog
+card:
+  stat: { en: "5 steps", vi: "5 bước" }
+  stat_label: { en: "design process", vi: "quy trình thiết kế" }
+  tag: { en: "eLearning design", vi: "Thiết kế eLearning" }
+  summary:
+    en: "How I built a recruiting and interviewing course for regional managers, from outline to LMS launch."
+    vi: "Cách mình xây một khóa tuyển dụng và phỏng vấn cho quản lý vùng, từ outline đến lúc lên LMS."
+  # Ảnh thẻ: để trống thì hiện khối "5 steps". Khi thêm ảnh, thêm cả dòng mô tả ảnh:
+  #   image: "/blog/ten-anh.webp"
+  #   image_alt: { en: "...", vi: "..." }
+  image: ""
+
+title: { en: "How I design a course", vi: "Mình thiết kế một khóa học như thế nào" }
+intro:
+  en: "Hi! Recruiting and interviewing skills is one of the courses I'm proudest of, from the first outline to launch on the LMS. Here's how I got from an idea to a finished eLearning course."
+  vi: "Chào bạn! Kỹ năng tuyển dụng và phỏng vấn ứng viên là một trong những khóa học mình hài lòng nhất, từ khâu thiết kế outline đến khâu triển khai trên hệ thống LMS. Dưới đây là cách mình lên ý tưởng và cho ra đời một sản phẩm eLearning."
+
+facts:
+  - label: { en: "Audience", vi: "Đối tượng" }
+    value: { en: "Regional managers", vi: "Cấp quản lý vùng" }
+  - label: { en: "Format", vi: "Hình thức" }
+    value: { en: "Blended learning", vi: "Blended learning" }
+  - label: { en: "Tools", vi: "Công cụ" }
+    value: "Articulate Storyline 360, Adobe Illustrator, PowerPoint"
+
+overview:
+  title: { en: "The course", vi: "Tổng quan" }
+  body:
+    - en: "The course gives regional managers the basics of recruiting and interviewing, so they hire the right person for the right job and fewer new hires quit. Managers take it online before an in-person practice class."
+      vi: "Khóa học cung cấp kiến thức nền tảng giúp cấp quản lý ở thị trường nâng cao kỹ năng tuyển dụng và phỏng vấn ứng viên, để tuyển đúng người đúng việc và giảm tỷ lệ nghỉ việc. Người học hoàn thành khóa online trước khi lớp thực hành offline diễn ra."
+    - en: "In some regions, managers were losing sales-support staff at a high rate. The causes were many: the work environment, knowledge, skills, motivation. Training can address gaps in knowledge and skills, so that's where I focused."
+      vi: "Cấp quản lý ở một số vùng, khu vực đặc thù đang gặp vấn đề: tỷ lệ nghỉ việc của nhân viên hỗ trợ kinh doanh cao. Có rất nhiều nguyên nhân (môi trường, kiến thức, kỹ năng, động lực…). Về phía đào tạo, mình tập trung giải quyết những vấn đề đến từ thiếu kiến thức và kỹ năng."
+
+role:
+  title: { en: "My part", vi: "Nhiệm vụ của mình" }
+  items:
+    - en: "Wrote the course outline and content (instructional design, storyboard)."
+      vi: "Thiết kế outline và nội dung chương trình (Instructional Design, Storyboard)."
+    - en: "Built the course and designed its visuals (eLearning development, visual design)."
+      vi: "Phát triển khóa học và thiết kế đồ họa (eLearning Development, Visual Design)."
+
+process:
+  title: { en: "The process", vi: "Quy trình" }
+  lead:
+    en: "Designing a course is iterative. Mine went through several rounds of feedback from my senior and manager until the internal knowledge in it was accurate. It took 5 steps."
+    vi: "Thiết kế khóa học là một quá trình lặp đi lặp lại, qua nhiều vòng feedback của senior và manager, để sản phẩm cuối cùng truyền tải kiến thức nội bộ thật chính xác. Gồm 5 bước:"
+  models_label: { en: "Models", vi: "Mô hình" }
+  steps:
+    - title: { en: "Outline", vi: "Outline chương trình" }
+      text:
+        en: "The outline sets the flow: how modules are structured and ordered, and which content goes in, all tied to the original goal. It took me the longest because it went through the most feedback rounds. The course had to fit the specifics of the finance industry, so every detail had to be accurate. A good outline saves you from tearing things down and rebuilding later."
+        vi: "Outline chú trọng vào mạch bài: cấu trúc và cách sắp xếp các module, chọn lọc nội dung có chủ đích, bám sát mục tiêu ban đầu. Đây là phần mình tốn nhiều thời gian nhất vì cần nhiều vòng feedback của senior và manager. Nội dung gắn với bối cảnh cụ thể, đặc thù của lĩnh vực Tài chính, nên thông tin phải thật chính xác. Một outline tốt giúp hạn chế việc \"đập đi xây lại\" và tiết kiệm rất nhiều thời gian."
+      models: "Rapid Prototyping, Bloom's Taxonomy, ABCD Learning Objectives"
+      image: "/blog/how-i-design-a-course/1-outline.png"
+      image_alt:
+        en: "The course outline: a table of tasks, objectives, content, and the lesson flow for each module (connect, concept, practice, conclusion)"
+        vi: "Outline khóa học: bảng gồm nhiệm vụ, mục tiêu, nội dung và thiết kế mạch chạy cho từng module (connect, concept, practice, conclusion)"
+    - title: { en: "Storyboard", vi: "Storyboard" }
+      text:
+        en: "Scene by scene. From the approved outline, I detailed every screen: on-screen content, voiceover, interactions. The storyboard lets both the instructional designer and the visual designer see what each screen will show, whether text, images, video, or sound."
+        vi: "Hay còn gọi là viết phân cảnh. Dựa trên outline đã được duyệt, mình đi vào chi tiết từng trang: nội dung hiển thị (content), lời thoại (voiceover), tương tác (interaction)… Storyboard giúp cả người thiết kế nội dung (ID) lẫn người thiết kế hình ảnh (Visual Designer) hình dung được mỗi trang của khóa học sẽ hiển thị thông tin, hình ảnh, video hoặc âm thanh như thế nào."
+      image: "/blog/how-i-design-a-course/2-storyboard.png"
+      image_alt:
+        en: "The storyboard: 30 slides laid out screen by screen"
+        vi: "Storyboard: 30 trang được trình bày theo từng màn hình"
+    - title: { en: "Rapid prototype", vi: "Thiết kế thử nghiệm nhanh (Rapid prototype)" }
+      text:
+        en: "The old process had no prototype. After the storyboard, we waited for the visual designer to finish the full design before testing with a small group of learners. Visual design usually takes about 30% of total production time. So the visual designer built a plain version with every function working, we tested it and gathered feedback, and only then moved on to the polished design."
+        vi: "Quy trình trước đây không có bước này: storyboard xong phải chờ Visual Designer thiết kế hoàn chỉnh mới có thể mở lớp thử nghiệm với nhóm người học chọn lọc. Mà thiết kế hình ảnh thường chiếm khoảng 30% tổng thời lượng sản xuất. Vì vậy, Visual Designer tạo một phiên bản đơn giản, đủ chức năng và hoạt động, để chạy thử và nhận feedback, rồi mới đi vào thiết kế chi tiết, chỉn chu. Cách này rút ngắn thời gian sản xuất."
+      models: "Rapid Prototyping"
+      image: "/blog/how-i-design-a-course/3-prototype.png"
+      image_alt:
+        en: "The prototype in Articulate Storyline: 5 scenes and their slides, mapped out before the full visual design"
+        vi: "Bản thử nghiệm trong Articulate Storyline: 5 cảnh và các trang của từng cảnh, dựng trước khi thiết kế hình ảnh hoàn chỉnh"
+    - title: { en: "Development", vi: "Phát triển khóa học (Development)" }
+      text:
+        en: "Articulate Storyline 360 is my main eLearning tool, with Adobe Illustrator and PowerPoint for visuals. Storyline lets learners practice what they just learned through interactions, and it records their answers so I can assess them and improve the content later."
+        vi: "Articulate Storyline 360 là công cụ chính mình dùng để thiết kế khóa học eLearning, kèm Adobe Illustrator và PowerPoint. Storyline hỗ trợ rất tốt việc tạo tương tác để người học thực hành ngay nội dung đang học, và ghi lại câu trả lời của người học để đánh giá, chỉnh sửa nội dung về sau."
+      models: "Mayer's Principles for eLearning"
+      image: ""
+    - title: { en: "QC and launch", vi: "QC và triển khai (Quality control)" }
+      text:
+        en: "Several rounds of testing on the LMS to catch technical errors. Then the course went live, and we measured results and collected learner feedback to improve the content."
+        vi: "Bước này chủ yếu kiểm tra chất lượng khóa học nhiều vòng trên hệ thống LMS để không phát sinh lỗi kỹ thuật. Sau đó khóa học được triển khai, đo lường và ghi nhận feedback của học viên để điều chỉnh, cải thiện nội dung sau này."
+      image: ""
+
+outcome:
+  title: { en: "How it landed", vi: "Kết quả" }
+  body:
+    - en: "Regional managers responded well. Most feedback said the course was short, easy to understand, and practical."
+      vi: "Khóa học được các anh/chị Quản lý vùng đón nhận rất tốt. Phản hồi chủ yếu là khóa học ngắn gọn, dễ hiểu và thực tế."
+  # Ảnh đo lường sau khóa học: thêm "- src: ..." kèm alt { en, vi }
+  images: []
+
+learned:
+  title: { en: "What I learned", vi: "Điều mình học được" }
+  body:
+    - en: "This was the first project where I used the new process. It showed me the whole design cycle end to end: building and refining the learning experience from the outline, and solving real performance problems on the job."
+      vi: "Đây là project đầu tiên mình áp dụng quy trình mới. Nó giúp mình hiểu rõ hơn quy trình thiết kế từ đầu đến cuối: phát triển và tinh chỉnh trải nghiệm học tập dựa trên outline, và giải quyết các vấn đề về hiệu suất trong công việc thực tế."
+    - en: "Most of all, I learned how much the outline matters. It keeps me focused on the content that best solves the problem training can solve."
+      vi: "Mình nhận ra outline thiết yếu như thế nào: outline giúp mình tập trung vào nội dung giải quyết tốt nhất vấn đề đặt ra thông qua đào tạo."

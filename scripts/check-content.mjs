@@ -20,7 +20,8 @@ function walk(node, where) {
   for (const [k, v] of Object.entries(node)) walk(v, where ? `${where}.${k}` : k);
 }
 
-for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".yml"))) {
+const files = fs.readdirSync(dir, { recursive: true }).filter((f) => f.endsWith(".yml"));
+for (const f of files) {
   let data;
   try {
     data = parse(fs.readFileSync(path.join(dir, f), "utf8"));
