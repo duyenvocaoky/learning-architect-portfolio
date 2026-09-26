@@ -8,10 +8,15 @@ import PostToc from "@/components/PostToc";
 /* A blog post: one reading column. The numbered process timeline is the page's one
    visual accent; everything else stays quiet. Words: content/blog/<slug>.yml */
 
+/* Image at its natural size (never stretched), opening full size in a new tab. */
 function Figure({ src, alt }) {
   if (!src) return null;
-  // eslint-disable-next-line @next/next/no-img-element
-  return <img className="post-figure" src={asset(src)} alt={alt || ""} loading="lazy" />;
+  return (
+    <a className="post-figure" href={asset(src)} target="_blank" rel="noopener noreferrer">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={asset(src)} alt={alt || ""} loading="lazy" />
+    </a>
+  );
 }
 
 function Paras({ items }) {

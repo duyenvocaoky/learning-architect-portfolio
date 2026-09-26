@@ -66,18 +66,27 @@ process:
         en: "The outline sets the flow: how modules are structured and ordered, and which content goes in, all tied to the original goal. It took me the longest because it went through the most feedback rounds. The course had to fit the specifics of the finance industry, so every detail had to be accurate. A good outline saves you from tearing things down and rebuilding later."
         vi: "Outline chú trọng vào mạch bài: cấu trúc và cách sắp xếp các module, chọn lọc nội dung có chủ đích, bám sát mục tiêu ban đầu. Đây là phần mình tốn nhiều thời gian nhất vì cần nhiều vòng feedback của senior và manager. Nội dung gắn với bối cảnh cụ thể, đặc thù của lĩnh vực Tài chính, nên thông tin phải thật chính xác. Một outline tốt giúp hạn chế việc \"đập đi xây lại\" và tiết kiệm rất nhiều thời gian."
       models: "Rapid Prototyping, Bloom's Taxonomy, ABCD Learning Objectives"
-      image: ""
+      image: "/blog/how-i-design-a-course/1-outline.png"
+      image_alt:
+        en: "The course outline: a table of tasks, objectives, content, and the lesson flow for each module (connect, concept, practice, conclusion)"
+        vi: "Outline khóa học: bảng gồm nhiệm vụ, mục tiêu, nội dung và thiết kế mạch chạy cho từng module (connect, concept, practice, conclusion)"
     - title: { en: "Storyboard", vi: "Storyboard" }
       text:
         en: "Scene by scene. From the approved outline, I detailed every screen: on-screen content, voiceover, interactions. The storyboard lets both the instructional designer and the visual designer see what each screen will show, whether text, images, video, or sound."
         vi: "Hay còn gọi là viết phân cảnh. Dựa trên outline đã được duyệt, mình đi vào chi tiết từng trang: nội dung hiển thị (content), lời thoại (voiceover), tương tác (interaction)… Storyboard giúp cả người thiết kế nội dung (ID) lẫn người thiết kế hình ảnh (Visual Designer) hình dung được mỗi trang của khóa học sẽ hiển thị thông tin, hình ảnh, video hoặc âm thanh như thế nào."
-      image: ""
+      image: "/blog/how-i-design-a-course/2-storyboard.png"
+      image_alt:
+        en: "The storyboard: 30 slides laid out screen by screen"
+        vi: "Storyboard: 30 trang được trình bày theo từng màn hình"
     - title: { en: "Rapid prototype", vi: "Thiết kế thử nghiệm nhanh (Rapid prototype)" }
       text:
         en: "The old process had no prototype. After the storyboard, we waited for the visual designer to finish the full design before testing with a small group of learners. Visual design usually takes about 30% of total production time. So the visual designer built a plain version with every function working, we tested it and gathered feedback, and only then moved on to the polished design."
         vi: "Quy trình trước đây không có bước này: storyboard xong phải chờ Visual Designer thiết kế hoàn chỉnh mới có thể mở lớp thử nghiệm với nhóm người học chọn lọc. Mà thiết kế hình ảnh thường chiếm khoảng 30% tổng thời lượng sản xuất. Vì vậy, Visual Designer tạo một phiên bản đơn giản, đủ chức năng và hoạt động, để chạy thử và nhận feedback, rồi mới đi vào thiết kế chi tiết, chỉn chu. Cách này rút ngắn thời gian sản xuất."
       models: "Rapid Prototyping"
-      image: ""
+      image: "/blog/how-i-design-a-course/3-prototype.png"
+      image_alt:
+        en: "The prototype in Articulate Storyline: 5 scenes and their slides, mapped out before the full visual design"
+        vi: "Bản thử nghiệm trong Articulate Storyline: 5 cảnh và các trang của từng cảnh, dựng trước khi thiết kế hình ảnh hoàn chỉnh"
     - title: { en: "Development", vi: "Phát triển khóa học (Development)" }
       text:
         en: "Articulate Storyline 360 is my main eLearning tool, with Adobe Illustrator and PowerPoint for visuals. Storyline lets learners practice what they just learned through interactions, and it records their answers so I can assess them and improve the content later."

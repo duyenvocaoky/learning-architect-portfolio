@@ -517,7 +517,9 @@ a.fact-value:hover { color: var(--coral); }
 .post h2 { font-size: clamp(26px, 3vw, 32px); font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; color: var(--ink); }
 .post section > p { font-size: 18px; line-height: 1.7; margin-top: 16px; }
 .post .dot-list li { font-size: 18px; line-height: 1.7; }
-.post-figure { width: 100%; height: auto; display: block; margin-top: 24px; border-radius: var(--radius-lg); border: 1px solid var(--line); }
+.post-figure { display: block; width: fit-content; max-width: 100%; margin-top: 24px; }
+.post-figure img { display: block; max-width: 100%; height: auto; border-radius: var(--radius-lg); border: 1px solid var(--line); background: var(--white); }
+.post-figure:hover img { border-color: var(--coral); }
 
 /* The accent: a numbered vertical timeline for the 5 real, ordered steps */
 .timeline { list-style: none; counter-reset: step; margin: 36px 0 0; padding: 0; }
