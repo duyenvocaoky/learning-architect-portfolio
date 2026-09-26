@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────
+# NỘI DUNG DÙNG CHUNG cho mọi trang (menu, chân trang, liên hệ).
+#
+# Cách sửa:
+#   - Mỗi câu có 2 dòng:  en: "tiếng Anh"   và   vi: "tiếng Việt"
+#   - Chỉ sửa phần chữ trong dấu ngoặc kép, KHÔNG đổi tên bên trái dấu ":"
+#   - Dòng không có en/vi (link, email, con số) dùng chung cho cả hai thứ tiếng
+#   - Viết *chữ* để tô màu coral cho chữ đó
+# ─────────────────────────────────────────────────────────────
+
+brand: "Duyen Vo Cao Ky"
+email: "duyenvocaoky@gmail.com"
+linkedin: "https://www.linkedin.com/in/kyduyen2503"
+
+nav:
+  experience: { en: "Experience", vi: "Kinh nghiệm" }
+  services: { en: "Services", vi: "Dịch vụ" }
+  work: { en: "Work", vi: "Dự án" }
+  ai: { en: "AI", vi: "AI" }
+  process: { en: "Process", vi: "Quy trình" }
+  contact: { en: "Contact", vi: "Liên hệ" }
+  cta: { en: "Let's Talk", vi: "Trò chuyện" }
+
+footer:
+  tagline:
+    en: "Learning Experience Architect · Portfolio 2026"
+    vi: "Kiến trúc trải nghiệm học tập · Portfolio 2026"
+
+case:
+  back: { en: "← Back to work", vi: "← Quay lại dự án" }
+  back_all: { en: "← Back to all work", vi: "← Quay lại tất cả dự án" }
+  period: { en: "Period", vi: "Thời gian" }
+  company: { en: "Company", vi: "Công ty" }
+  domain: { en: "Domain", vi: "Lĩnh vực" }
+  methods: { en: "Methods", vi: "Phương pháp" }
+  coming_soon: { en: "Case study coming soon", vi: "Case study sắp ra mắt" }

@@ -1,0 +1,63 @@
+/* ============================================================
+   DESIGN TOKENS — bảng màu Coral, chữ, khoảng cách, bo góc.
+   Nguồn: design system "duyen-vo-cao-ky-portfolio" trên Claude Design.
+   Đổi một giá trị ở đây → cả trang đổi theo.
+   ============================================================ */
+:root {
+  /* ---- Màu nền (giấy) ---- */
+  --paper: #fff7eb;       /* nền trang */
+  --paper-deep: #f6ecda;  /* nền khối xen kẽ */
+  --paper-card: #fffdf8;  /* nền thẻ */
+
+  /* ---- Màu chữ (mực) ---- */
+  --ink: #16130e;         /* tiêu đề */
+  --ink-soft: #3a352d;    /* chữ thường */
+  --ink-muted: #6e675a;   /* chữ phụ */
+  --ink-faint: #a89e8c;   /* chữ rất nhạt */
+
+  /* ---- Màu nhấn coral ---- */
+  --coral: #ff3d4f;
+  --coral-deep: #e32a3c;  /* khi rê chuột */
+  --coral-wash: #ffe6e3;  /* nền nhạt sau chữ coral */
+  --coral-line: #f5c9c4;
+
+  /* ---- Màu bong bóng trang trí ở ảnh chân dung ---- */
+  --mauve-1: #e2c6d2;
+  --mauve-2: #dfc8d0;
+  --mauve-3: #e6cfd9;
+  --mauve-4: #d8b5c4;
+
+  /* ---- Đường viền ---- */
+  --line: #e6dcc8;
+  --line-strong: #d6c9ae;
+  --white: #ffffff;
+
+  /* ---- Chữ ---- */
+  --font-sans: "Xerox Sans", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --tracking-label: 0.14em;
+
+  /* ---- Bố cục ---- */
+  --container-max: 1240px;
+  --page-pad: 64px;       /* lề hai bên trên máy tính */
+  --section-pad: 104px;   /* khoảng cách trên/dưới mỗi khối */
+
+  /* ---- Bo góc & đổ bóng ---- */
+  --radius-lg: 14px;
+  --radius-xl: 22px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 3px rgba(22, 19, 14, 0.05);
+  --shadow-lift: 0 22px 56px rgba(22, 19, 14, 0.12);
+  --shadow-coral: 0 10px 30px rgba(255, 61, 79, 0.22);
+
+  /* ---- Chuyển động ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-base: 220ms;
+  --dur-slow: 420ms;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --page-pad: 20px;
+    --section-pad: 72px;
+  }
+}
