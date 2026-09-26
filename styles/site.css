@@ -605,3 +605,8 @@ a.fact-value:hover { color: var(--coral); }
 .post-toc li.sub a { font-size: 13px; }
 .post-toc a:hover { color: var(--ink); }
 .post-toc a[aria-current="true"] { color: var(--coral); font-weight: 700; }
+
+/* Case study pages reuse the blog post layout; a small coral kicker above the title */
+.post-kicker { font-size: 14px; font-weight: 700; color: var(--coral); margin-top: 28px; }
+.post-kicker + h1 { margin-top: 10px; }
+.post-outcome .grid-stats { margin-top: 20px; gap: 14px; }
