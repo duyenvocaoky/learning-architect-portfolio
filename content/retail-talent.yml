@@ -1,0 +1,100 @@
+# ─────────────────────────────────────────────────────────────
+# NỘI DUNG CASE STUDY 01 — Chương trình nhân tài bán lẻ (retail talent program)
+# Cách sửa: xem hướng dẫn ở đầu file common.yml.
+# ─────────────────────────────────────────────────────────────
+
+meta:
+  title:
+    en: "Talent pipeline for line-manager succession — Duyen Vo Cao Ky"
+    vi: "Nguồn nhân tài kế nhiệm cấp quản lý — Võ Cao Kỳ Duyên"
+  description:
+    en: "A leadership program redesigned around Action Learning: 46% promotion rate, 1,200% average ROI."
+    vi: "Chương trình lãnh đạo thiết kế lại theo Action Learning: 46% tỷ lệ thăng tiến, ROI trung bình 1.200%."
+
+hero:
+  chip: { en: "Project 01 · Retail talent program", vi: "Dự án 01 · Chương trình nhân tài bán lẻ" }
+  title: { en: "Talent pipeline for line-manager succession", vi: "Nguồn nhân tài kế nhiệm cấp quản lý" }
+  intro:
+    en: "A leadership program that develops high-potential team leaders into line-manager candidates. Redesigned around Action Learning and measured on promotion and ROI."
+    vi: "Chương trình phát triển năng lực lãnh đạo, đưa các trưởng nhóm tiềm năng cao trở thành ứng viên cấp quản lý. Được thiết kế lại theo Action Learning và đo bằng tỷ lệ thăng tiến cùng ROI."
+
+context:
+  eyebrow: { en: "Context", vi: "Bối cảnh" }
+  facts:
+    period: { en: "2022 – 2025", vi: "2022 – 2025" }
+    company: { en: "AEON Vietnam", vi: "AEON Việt Nam" }
+    domain: { en: "L&D · Talent Management", vi: "L&D · Quản trị nhân tài" }
+    methods: "WIAL Action Learning · 70/20/10 · Kirkpatrick"
+  lead:
+    en: "AEON Vietnam's rapid retail expansion demands a ready pipeline of line managers. The retail talent program develops high-potential team leaders into line-manager candidates through structured leadership, technical, and people-management training."
+    vi: "Tốc độ mở rộng bán lẻ của AEON Việt Nam cần một nguồn quản lý luôn sẵn sàng. Chương trình nhân tài bán lẻ phát triển các trưởng nhóm tiềm năng cao thành ứng viên cấp quản lý thông qua đào tạo lãnh đạo, chuyên môn và quản lý con người."
+  body:
+    en: "With a large frontline workforce, faster internal promotion cuts cost and onboarding time. Without the program, line-manager vacancies would depend solely on external recruitment."
+    vi: "Với lực lượng tuyến đầu lớn, thăng tiến nội bộ nhanh hơn giúp giảm chi phí và thời gian hội nhập. Nếu không có chương trình này, các vị trí quản lý trống sẽ phụ thuộc hoàn toàn vào tuyển dụng bên ngoài."
+
+objective:
+  eyebrow: { en: "Objective", vi: "Mục tiêu" }
+  title: { en: "What I was asked to solve", vi: "Bài toán tôi được giao" }
+  items:
+    - en: "Move high-potential team leaders into line-manager readiness through structured leadership, technical, and people-management training."
+      vi: "Đưa các trưởng nhóm tiềm năng cao đến mức sẵn sàng làm quản lý qua đào tạo lãnh đạo, chuyên môn và quản lý con người có cấu trúc."
+    - en: "Hit a 10% promotion rate from each cohort, the target set for the program."
+      vi: "Đạt tỷ lệ thăng tiến 10% ở mỗi khoá, mục tiêu đặt ra cho chương trình."
+    - en: "Reduce reliance on external recruitment for line-manager vacancies, cutting hiring cost and onboarding time."
+      vi: "Giảm phụ thuộc vào tuyển dụng bên ngoài cho vị trí quản lý, cắt giảm chi phí tuyển dụng và thời gian hội nhập."
+    - en: "Prove program value in numbers, with promotion rate and ROI as the reported measures."
+      vi: "Chứng minh giá trị chương trình bằng con số, với tỷ lệ thăng tiến và ROI là chỉ số báo cáo."
+
+role:
+  eyebrow: { en: "My Role", vi: "Vai trò của tôi" }
+  title: { en: "I owned the program end to end from 2024", vi: "Tôi phụ trách chương trình toàn trình từ 2024" }
+  lead:
+    en: "Program-in-Charge from 2024, contributor from 2022 to 2023. I took the program over and carried the full cycle: redesigning the curriculum, running the cohort, and reporting results to the business. Specifically, I was responsible for:"
+    vi: "Phụ trách chương trình từ 2024, thành viên tham gia từ 2022 đến 2023. Tôi tiếp quản chương trình và đảm nhận toàn bộ chu trình: thiết kế lại nội dung, vận hành khoá học và báo cáo kết quả cho phía kinh doanh. Cụ thể, tôi chịu trách nhiệm:"
+  items:
+    - en: "Redesigning the program structure on a 4Ps framework and doubling the cohort size."
+      vi: "Thiết kế lại cấu trúc chương trình theo khung 4Ps và tăng gấp đôi quy mô khoá."
+    - en: "Recruiting and briefing 10+ functional expert speakers per cohort."
+      vi: "Mời và brief hơn 10 chuyên gia các khối chức năng cho mỗi khoá."
+    - en: "Designing the pre/post assessment and the ROI measurement framework."
+      vi: "Thiết kế bài đánh giá trước/sau và khung đo lường ROI."
+    - en: "Running the Action Learning sessions and tracking milestone delivery across the cohort."
+      vi: "Điều phối các buổi Action Learning và theo dõi tiến độ các mốc của cả khoá."
+
+execution:
+  eyebrow: { en: "Execution", vi: "Triển khai" }
+  title: { en: "How the work was done", vi: "Công việc đã được làm như thế nào" }
+  steps:
+    - en: "Embedded WIAL Action Learning so leaders work on real business problems from their own stores."
+      vi: "Đưa WIAL Action Learning vào chương trình để học viên giải quyết bài toán kinh doanh thật tại cửa hàng của mình."
+    - en: "Curated 10+ functional expert speakers per cohort across 12+ live sessions."
+      vi: "Mời hơn 10 chuyên gia các khối chức năng cho mỗi khoá, trong hơn 12 buổi học trực tiếp."
+    - en: "Redesigned the program on a 4Ps framework (People–Process–Product) and doubled cohort size as PIC."
+      vi: "Thiết kế lại chương trình theo khung 4Ps (People–Process–Product) và tăng gấp đôi quy mô mỗi khoá khi làm phụ trách."
+    - en: "Built pre/post assessment and an ROI measurement framework in from day one."
+      vi: "Xây dựng đánh giá trước/sau và khung đo ROI ngay từ đầu."
+
+results:
+  eyebrow: { en: "Result · 2025", vi: "Kết quả · 2025" }
+  title: { en: "What it delivered", vi: "Kết quả mang lại" }
+  headline:
+    - value: "46%"
+      label: { en: "Promotion rate, 4.6× the 10% target", vi: "Tỷ lệ thăng tiến, gấp 4,6 lần mục tiêu 10%" }
+    - value: "1,200%"
+      label: { en: "Average program ROI", vi: "ROI trung bình của chương trình" }
+  secondary:
+    - value: "100%"
+      label: { en: "Completion rate", vi: "Tỷ lệ hoàn thành" }
+    - value: "90%"
+      label: { en: "On-time milestone delivery", vi: "Hoàn thành mốc tiến độ đúng hạn" }
+    - value: "10+"
+      label: { en: "Expert speakers per cohort", vi: "Chuyên gia khách mời mỗi khoá" }
+
+visuals:
+  eyebrow: { en: "Visuals", vi: "Hình ảnh" }
+  # Thêm ảnh: bỏ file vào public/case/ rồi thêm một dòng "- src: ..." bên dưới.
+  # Chưa có ảnh → mục Hình ảnh tự ẩn. Không dùng ảnh có logo, sự kiện nội bộ hay gương mặt đồng nghiệp chưa xin phép.
+  images: []
+  # Nút tải tài liệu: điền link vào resource_url để nút hiện ra; để trống thì nút ẩn.
+  resource_url: ""
+  resource_label: { en: "View program deck", vi: "Xem tài liệu chương trình" }

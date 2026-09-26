@@ -1,0 +1,294 @@
+# ─────────────────────────────────────────────────────────────
+# NỘI DUNG TRANG CHỦ — sắp theo thứ tự từ trên xuống dưới của trang.
+#
+# Cách sửa: xem hướng dẫn ở đầu file common.yml.
+#   *chữ*  → tô màu coral
+#   \n     → xuống dòng (chỉ dùng trong dấu ngoặc kép)
+# ─────────────────────────────────────────────────────────────
+
+meta:
+  title:
+    en: "Duyen Vo Cao Ky — Learning Experience Architect"
+    vi: "Võ Cao Kỳ Duyên — Kiến trúc trải nghiệm học tập"
+  description:
+    en: "L&D programs that change behavior on the job: training-needs analysis, instructional design, facilitation, evaluation, and ROI."
+    vi: "Chương trình L&D tạo thay đổi hành vi trong công việc: phân tích nhu cầu đào tạo, thiết kế, dẫn giảng, đánh giá và ROI."
+
+# ── 1. Phần đầu trang (ảnh chân dung) ──
+hero:
+  eyebrow: { en: "Learning Experience Architect", vi: "Kiến trúc trải nghiệm học tập" }
+  title:
+    en: "I design learning that changes *behavior* on the job."
+    vi: "Tôi thiết kế việc học tạo ra thay đổi *hành vi* trong công việc."
+  intro:
+    en: "Based in Ho Chi Minh City, I design and own L&D programs end to end. I lead as Program-in-Charge, accountable for the full cycle: training-needs analysis, instructional design, facilitation, evaluation, and ROI."
+    vi: "Làm việc tại TP. Hồ Chí Minh, tôi thiết kế và chịu trách nhiệm các chương trình L&D từ đầu đến cuối. Tôi đảm nhiệm vai trò Program-in-Charge, phụ trách toàn bộ chu trình: phân tích nhu cầu đào tạo, thiết kế nội dung, dẫn giảng, đánh giá và ROI."
+  cta_primary: { en: "View My Work", vi: "Xem dự án" }
+  cta_secondary: { en: "Let's Talk", vi: "Trò chuyện" }
+  photo_alt: { en: "Võ Cao Kỳ Duyên", vi: "Võ Cao Kỳ Duyên" }
+
+# ── 2. Kinh nghiệm (các thẻ bấm để mở) ──
+experience:
+  eyebrow: { en: "Experience", vi: "Kinh nghiệm" }
+  title: { en: "Where I have built programs*.*", vi: "Nơi tôi đã xây dựng chương trình*.*" }
+  intro:
+    en: "Open any role to see what I owned and what it changed."
+    vi: "Mở từng vị trí để xem tôi phụ trách gì và đã tạo ra thay đổi gì."
+  roles:
+    - years: "2022 — 2026"
+      dates: { en: "Jun 2022 – Apr 2026", vi: "06/2022 – 04/2026" }
+      company: "AEON Vietnam Academy"
+      title:
+        en: "Talent Development Executive | Senior L&D Executive"
+        vi: "Chuyên viên Phát triển Nhân tài | Chuyên viên L&D cấp cao"
+      # summary = tóm tắt thành tựu chính, luôn hiện kể cả khi thẻ đang thu gọn
+      summary:
+        en: "End-to-end owner of 27 programs serving 2,200+ employees across talent development, capability building, and architecting learning environments: 4.1/5 avg. satisfaction, 80% avg. completion, proven ROI."
+        vi: "Phụ trách toàn trình 27 chương trình, phục vụ 2.200+ nhân viên trong phát triển nhân tài, xây dựng năng lực và kiến tạo môi trường học tập: hài lòng trung bình 4.1/5, hoàn thành trung bình 80%, ROI đã được chứng minh."
+      about:
+        en: "Corporate academy of AEON, a leading Japanese retail group. Head Office, Ho Chi Minh City."
+        vi: "Học viện nội bộ của AEON, tập đoàn bán lẻ hàng đầu Nhật Bản. Trụ sở chính, TP. Hồ Chí Minh."
+      groups:
+        - label: { en: "Talent Development", vi: "Phát triển nhân tài" }
+          items:
+            - en: "Executed and continuously improved the South-region retail talent program end-to-end across 3 years, a multi-format program (2–6 months; offline, hybrid, leadership café & learn, project-based learning) building successor pools from front-line staff to store-manager level across a rapidly expanding retail network."
+              vi: "Triển khai và liên tục cải tiến chương trình nhân tài bán lẻ khu vực miền Nam toàn trình trong 3 năm, một chương trình đa hình thức (2–6 tháng; offline, hybrid, leadership café & learn, học qua dự án) xây dựng nguồn kế nhiệm từ nhân viên tuyến đầu đến cấp quản lý cửa hàng trong một mạng lưới bán lẻ mở rộng nhanh."
+            - en: "Led planning, facilitation, and evaluation, and proposed business-aligned improvements to keep a proven program fit for evolving operations."
+              vi: "Chủ trì hoạch định, dẫn giảng và đánh giá; đề xuất các cải tiến gắn với kinh doanh để chương trình luôn phù hợp với vận hành thay đổi."
+            - en: "Proven results across cohorts: 46% promotion rate, 95% completion, and ~1,200% ROI."
+              vi: "Kết quả đã được chứng minh qua các khoá: 46% tỷ lệ thăng tiến, 95% hoàn thành và ROI ~1.200%."
+        - label: { en: "Capability Building & Learning Experience", vi: "Xây dựng năng lực & trải nghiệm học tập" }
+          items:
+            - en: "Pioneered the company's first Critical Thinking program, its first delivered by internal trainers, and owned it end to end, from a training needs analysis with 100+ staff through design, facilitation, and evaluation."
+              vi: "Tiên phong chương trình Critical Thinking đầu tiên của công ty, cũng là chương trình đầu tiên do giảng viên nội bộ đứng lớp, và phụ trách toàn trình, từ phân tích nhu cầu đào tạo với 100+ nhân viên đến thiết kế, dẫn giảng và đánh giá."
+            - en: "Built a Train-the-Trainer program to grow internal training capability, equipping 100+ internal trainers to run programs independently, with a reusable activity-design template."
+              vi: "Xây dựng chương trình Train-the-Trainer để phát triển năng lực đào tạo nội bộ, trang bị cho 100+ giảng viên nội bộ tự tổ chức chương trình, kèm bộ mẫu thiết kế hoạt động tái sử dụng."
+            - en: "Facilitated career-orientation programs, self-discovery and career-direction experiences helping employees position their growth within the company. (1,000+ employees reached.)"
+              vi: "Dẫn giảng các chương trình định hướng nghề nghiệp, trải nghiệm tự khám phá và định hướng giúp nhân viên xác định lộ trình phát triển trong công ty. (1.000+ nhân viên tiếp cận.)"
+            - en: "Scaled the company's education podcast as production & QC contributor across 26+ episodes; grew from a 9K-view target (2023) to 170K combined views (2024). (ROI >300%.)"
+              vi: "Mở rộng podcast giáo dục của công ty với vai trò sản xuất và kiểm soát chất lượng 26+ tập; tăng từ mục tiêu 9K lượt xem (2023) lên 170K lượt xem tổng (2024). (ROI >300%.)"
+            - en: "Launched the company's first future-readiness program, a multi-format program (MOOC, guided reading, community of practice, and external experts) building future-ready skills focused on problem-solving, self-management, and working with people, for head-office employees."
+              vi: "Khởi tạo chương trình future-readiness đầu tiên của công ty, đa hình thức (MOOC, đọc có hướng dẫn, cộng đồng thực hành và chuyên gia bên ngoài), phát triển năng lực tương lai tập trung vào giải quyết vấn đề, tự quản lý và làm việc với con người, cho khối văn phòng."
+            - en: "Project-managed delivery: managed vendors and proposed the e-learning provider, consulted on course production and packaging within the LMS, and operated the community of practice."
+              vi: "Quản lý dự án triển khai: quản trị nhà cung cấp và đề xuất đối tác e-learning, tư vấn sản xuất và đóng gói khoá học trên LMS, điều phối cộng đồng thực hành."
+            - en: "Engaged 150+ learners with 1,000+ communication interactions and 800+ MOOC learning hours."
+              vi: "Thu hút 150+ học viên với 1.000+ lượt tương tác truyền thông và 800+ giờ học MOOC."
+        - label: { en: "Stakeholder Partnership & Consulting", vi: "Hợp tác & tư vấn các bên liên quan" }
+          items:
+            - en: "Secured buy-in from 40+ business leaders and managers to support training programs, nominating learners and contributing as advisors to the learning journey, subject-matter experts, speakers, and judges."
+              vi: "Thuyết phục 40+ lãnh đạo và quản lý ủng hộ các chương trình đào tạo: đề cử học viên và tham gia với vai trò cố vấn lộ trình học, chuyên gia nội dung, diễn giả và ban giám khảo."
+            - en: "Packaged the retail talent program and collaborated with HR store teams to co-deliver it, as consultant and mentor, increasing talents trained that year by 40% (to 100+, 100% completion)."
+              vi: "Đóng gói chương trình nhân tài bán lẻ và phối hợp với đội HR cửa hàng để đồng triển khai, với vai trò tư vấn và mentor, tăng 40% số nhân tài được đào tạo trong năm (lên 100+, hoàn thành 100%)."
+            - en: "Partnered cross-functionally on university partnerships, connected with 5+ universities, consulted them on tailored workshops, and served as a guest speaker, contributing to the company's employer-of-choice strategy."
+              vi: "Phối hợp liên phòng ban trong hợp tác đại học: kết nối 5+ trường, tư vấn thiết kế workshop riêng và tham gia làm diễn giả khách mời, góp phần vào chiến lược employer-of-choice của công ty."
+            - en: "Consulted the Head of Department and secured General Manager approval for a new LMS, ran comprehensive market research and delivered a formal proposal achieving 200% ROI by replacing the legacy system, now serving 1,000+ employees."
+              vi: "Tư vấn Trưởng phòng và được Giám đốc phê duyệt hệ thống LMS mới; thực hiện nghiên cứu thị trường toàn diện và trình đề xuất chính thức, đạt ROI 200% khi thay thế hệ thống cũ, hiện phục vụ 1.000+ nhân viên."
+    - years: "2020 — 2022"
+      dates: { en: "Oct 2020 – Mar 2022", vi: "10/2020 – 03/2022" }
+      company: "Home Credit Vietnam"
+      title:
+        en: "E-Learning Instructional Designer & Sales Trainer"
+        vi: "Thiết kế học liệu số & Giảng viên Bán hàng"
+      summary:
+        en: "Delivered 400 hours of sales training on financial-product knowledge, compliance, and selling skills, with a 93% NPS."
+        vi: "Đứng lớp 400 giờ đào tạo bán hàng về kiến thức sản phẩm tài chính, tuân thủ và kỹ năng bán hàng, đạt NPS 93%."
+      about:
+        en: "International consumer-finance group. Ho Chi Minh City."
+        vi: "Tập đoàn tài chính tiêu dùng quốc tế. TP. Hồ Chí Minh."
+      highlights:
+        - tag: { en: "12+ courses", vi: "12+ khoá học" }
+          text:
+            en: "Project owner of 12+ courses, partnering with subject-matter experts to build blended and on-demand learning aligned to business needs."
+            vi: "Chủ nhiệm 12+ khoá học, phối hợp với chuyên gia nội dung xây dựng học liệu blended và on-demand gắn với nhu cầu kinh doanh."
+        - tag: { en: "~400 hrs · 93% NPS", vi: "~400 giờ · 93% NPS" }
+          text:
+            en: "Delivered ~400 hours of virtual instructor-led training to new sales assistants, achieving a 93% NPS."
+            vi: "Giảng ~400 giờ đào tạo trực tuyến có giảng viên cho nhân viên bán hàng mới, đạt NPS 93%."
+        - tag: { en: "Engagement", vi: "Mức độ gắn kết" }
+          text:
+            en: "Raised engagement with gamification, custom interactions, assessments, and real-world branching scenarios."
+            vi: "Tăng mức độ tương tác bằng gamification, tương tác tuỳ chỉnh, bài đánh giá và tình huống phân nhánh thực tế."
+    - years: "2017 — 2020"
+      dates: { en: "Sep 2017 – Sep 2020", vi: "09/2017 – 09/2020" }
+      company: "Alphaworks Learning JSC"
+      title:
+        en: "Project Leader / E-Learning Developer"
+        vi: "Trưởng nhóm dự án / Lập trình học liệu số"
+      summary:
+        en: "Led a 5-person team that visualized 150+ courses and modules for Udemy and for internal training at major Singaporean organizations in aviation, technology, and education."
+        vi: "Dẫn dắt nhóm 5 người thiết kế hình ảnh cho 150+ khoá học và mô-đun trên Udemy và cho đào tạo nội bộ tại các tổ chức lớn ở Singapore trong lĩnh vực hàng không, công nghệ và giáo dục."
+      about:
+        en: "In partnership with Dioworks Singapore. Serving major Singaporean organizations."
+        vi: "Hợp tác cùng Dioworks Singapore. Phục vụ các tổ chức lớn tại Singapore."
+      highlights:
+        - tag: { en: "5-person team", vi: "Đội ngũ 5 người" }
+          text:
+            en: "As Project Leader (from 2019), led a 5-person team and owned quality control, delivering on timeline and standard."
+            vi: "Từ 2019 giữ vai trò Trưởng nhóm dự án, dẫn dắt nhóm 5 người và phụ trách kiểm soát chất lượng, bàn giao đúng hạn và đúng chuẩn."
+        - tag: { en: "150+ modules", vi: "150+ mô-đun" }
+          text:
+            en: "Team produced 150+ courses and modules used on Udemy and for internal training at major Singaporean organizations across aviation, technology, and education (EdTech)."
+            vi: "Nhóm sản xuất 150+ khoá học và mô-đun dùng trên Udemy và đào tạo nội bộ tại các tổ chức lớn ở Singapore trong hàng không, công nghệ và giáo dục (EdTech)."
+        - tag: "MOOC · SCORM"
+          text:
+            en: "Built MOOC and SCORM e-learning with animated video and engaging visual design."
+            vi: "Xây dựng học liệu MOOC và SCORM với video hoạt hoạ và thiết kế hình ảnh hấp dẫn."
+  education:
+    years: "2012 — 2017"
+    text:
+      en: "Bachelor of Engineering, Land Management. Nong Lam University, Ho Chi Minh City."
+      vi: "Kỹ sư Quản lý Đất đai. Đại học Nông Lâm TP. Hồ Chí Minh."
+
+# ── 3. Dịch vụ ──
+services:
+  eyebrow: { en: "What I Do", vi: "Tôi làm gì" }
+  title:
+    en: "Design services that help your people perform*.*"
+    vi: "Dịch vụ thiết kế giúp đội ngũ của bạn làm việc hiệu quả hơn*.*"
+  intro:
+    en: "Four things I am hired for, each grounded in programs I have already owned and measured."
+    vi: "Bốn việc tôi thường được mời làm, mỗi việc đều dựa trên những chương trình tôi đã phụ trách và đo lường kết quả."
+  link: { en: "See it in practice →", vi: "Xem thực tế →" }
+  items:
+    - title: { en: "Learning experience design", vi: "Thiết kế trải nghiệm học tập" }
+      text:
+        en: "Programs designed backward from the behavior they need to change, from needs analysis through instructional design, facilitation, and evaluation."
+        vi: "Chương trình được thiết kế ngược từ hành vi cần thay đổi, từ phân tích nhu cầu đến thiết kế nội dung, dẫn giảng và đánh giá."
+    - title: { en: "Talent program design", vi: "Thiết kế chương trình nhân tài" }
+      text:
+        en: "Succession pipelines and cohort programs that move high-potential staff into manager roles, with clear promotion targets."
+        vi: "Nguồn kế nhiệm và chương trình theo khoá giúp nhân sự tiềm năng lên vị trí quản lý, với mục tiêu thăng tiến rõ ràng."
+    - title: { en: "Facilitation & capability building", vi: "Dẫn giảng & xây dựng năng lực" }
+      text:
+        en: "Live workshops, Action Learning sessions, and Train-the-Trainer so the organization can run its own programs."
+        vi: "Workshop trực tiếp, buổi Action Learning và Train-the-Trainer để tổ chức tự vận hành được chương trình của mình."
+    - title: { en: "Measurement & ROI", vi: "Đo lường & ROI" }
+      text:
+        en: "Kirkpatrick-based evaluation and ROI models that report program value in numbers a general manager can act on."
+        vi: "Đánh giá theo mô hình Kirkpatrick và mô hình ROI, báo cáo giá trị chương trình bằng con số mà ban giám đốc có thể dùng để ra quyết định."
+
+# ── 4. Dự án tiêu biểu ──
+# "slug" là tên trang case study. Case nào chưa có trang thì để trống slug.
+work:
+  eyebrow: { en: "Selected Work", vi: "Dự án tiêu biểu" }
+  title: { en: "Five programs, owned from blank page to ROI*.*", vi: "Năm chương trình, phụ trách từ trang giấy trắng đến ROI*.*" }
+  intro:
+    en: "Each card opens a full case study: the business problem, my role, \nhow it was built, and the measured outcome."
+    vi: "Mỗi thẻ mở ra một case study đầy đủ: bài toán kinh doanh, vai trò của tôi, \ncách chương trình được xây dựng và kết quả đo được."
+  link: { en: "View Case Study →", vi: "Xem case study →" }
+  cases:
+    - slug: "retail-talent"
+      tone: "ink"
+      stat: "46%"
+      stat_label: { en: "promoted", vi: "thăng tiến" }
+      tag: { en: "Retail talent program", vi: "Chương trình nhân tài bán lẻ" }
+      title: { en: "Talent pipeline for line-manager succession", vi: "Nguồn nhân tài kế nhiệm cấp quản lý" }
+      text:
+        en: "Redesigned a leadership program on Action Learning and a 4Ps framework, doubling the cohort as Program-in-Charge. 1,200% average ROI."
+        vi: "Thiết kế lại chương trình lãnh đạo theo Action Learning và khung 4Ps, tăng gấp đôi quy mô khoá với vai trò Program-in-Charge. ROI trung bình 1.200%."
+    - slug: ""
+      tone: "wash"
+      stat: "57.5%"
+      stat_label: { en: "promoted", vi: "thăng tiến" }
+      tag: { en: "Franchise Model", vi: "Mô hình nhượng quyền" }
+      title: { en: "A franchise model to scale the talent pipeline", vi: "Mô hình nhượng quyền để mở rộng nguồn nhân tài" }
+      text:
+        en: "Designed a co-delivery model so HR store teams run the training while the Academy keeps quality. 104 learners through the franchise."
+        vi: "Thiết kế mô hình đồng triển khai để đội HR cửa hàng tổ chức đào tạo, Học viện giữ chất lượng. 104 học viên qua mô hình nhượng quyền."
+    - slug: ""
+      tone: "paper"
+      stat: "1,155"
+      stat_label: { en: "reached", vi: "tiếp cận" }
+      tag: { en: "Coaching & CoP", vi: "Kèm cặp & Cộng đồng thực hành" }
+      title: { en: "Building a self-sustaining learning organization", vi: "Xây dựng tổ chức học tập tự duy trì" }
+      text:
+        en: "Launched peer communities and a coaching culture so knowledge flows laterally across teams."
+        vi: "Xây dựng cộng đồng học tập và văn hoá kèm cặp để tri thức lan toả giữa các nhóm."
+    - slug: ""
+      tone: "ink"
+      stat: "170K"
+      stat_label: { en: "views", vi: "lượt xem" }
+      tag: { en: "Digital L&D", vi: "L&D số hoá" }
+      title: { en: "Podcast, LMS migration, MOOC & eLearning", vi: "Podcast, chuyển đổi LMS, MOOC & eLearning" }
+      text:
+        en: "Built digital channels to extend learning beyond the classroom for a distributed frontline workforce. 200%+ LMS migration ROI."
+        vi: "Xây dựng các kênh học tập số đưa việc học ra ngoài lớp học cho lực lượng tuyến đầu phân tán. ROI chuyển đổi LMS trên 200%."
+    - slug: ""
+      tone: "wash"
+      stat: "689"
+      stat_label: { en: "students", vi: "sinh viên" }
+      tag: { en: "University Partnerships", vi: "Hợp tác đại học" }
+      title: { en: "Employer branding & external talent pipeline", vi: "Thương hiệu tuyển dụng & nguồn nhân tài bên ngoài" }
+      text:
+        en: "Built university partnerships that create an early funnel and feed the management-trainee program. 138% of target."
+        vi: "Xây dựng hợp tác đại học tạo nguồn ứng viên từ sớm cho chương trình quản trị viên tập sự. Đạt 138% mục tiêu."
+
+# ── 5. Dự án AI ──
+ai:
+  eyebrow: { en: "AI Ain't Doing Slop", vi: "AI Ain't Doing Slop" }
+  title:
+    en: "AI-powered work by \na non-technical practitioner*.*"
+    vi: "Dự án ứng dụng AI \ncủa một người không làm kỹ thuật*.*"
+  intro:
+    en: "I treat AI as a tool that magnifies the quality of the work behind it. \nPeople absorb mess; AI needs clarity, structure, context and instruction."
+    vi: "Tôi xem AI là công cụ khuếch đại chất lượng của công việc phía sau nó. \nCon người chịu được sự lộn xộn; AI thì cần rõ ràng, có cấu trúc, bối cảnh và chỉ dẫn."
+  projects:
+    - label: { en: "Project 01", vi: "Dự án 01" }
+      title: { en: "Project title goes here", vi: "Tên dự án" }
+      text:
+        en: "One or two sentences on the problem, what I directed the model to do, and what shipped."
+        vi: "Một hai câu về bài toán, tôi đã hướng dẫn AI làm gì, và kết quả là gì."
+      tools: ["Claude", "Docker"]
+    - label: { en: "Project 02", vi: "Dự án 02" }
+      title: { en: "Project title goes here", vi: "Tên dự án" }
+      text:
+        en: "One or two sentences on the problem, what I directed the model to do, and what shipped."
+        vi: "Một hai câu về bài toán, tôi đã hướng dẫn AI làm gì, và kết quả là gì."
+      tools: ["Claude"]
+
+# ── 6. Quy trình ──
+process:
+  eyebrow: { en: "My Process", vi: "Quy trình của tôi" }
+  title:
+    en: "A thoughtful process for programs that hold up*.*"
+    vi: "Một quy trình chỉn chu cho những chương trình bền vững*.*"
+  intro:
+    en: "ADDIE, run in the open with the business at every gate."
+    vi: "ADDIE, triển khai minh bạch cùng phía kinh doanh ở từng bước."
+  steps:
+    - title: { en: "Analyse", vi: "Phân tích" }
+      text:
+        en: "Training-needs analysis with staff and managers to find the real performance gap."
+        vi: "Phân tích nhu cầu đào tạo cùng nhân viên và quản lý để tìm ra khoảng trống hiệu suất thật sự."
+    - title: { en: "Design", vi: "Thiết kế" }
+      text:
+        en: "Objectives, formats, and the measurement plan agreed before anything is built."
+        vi: "Thống nhất mục tiêu, hình thức và kế hoạch đo lường trước khi bắt tay xây dựng."
+    - title: { en: "Develop", vi: "Phát triển" }
+      text:
+        en: "Materials, activities, and e-learning built with subject-matter experts."
+        vi: "Xây dựng tài liệu, hoạt động và e-learning cùng chuyên gia nội dung."
+    - title: { en: "Implement", vi: "Triển khai" }
+      highlight: true
+      text:
+        en: "Facilitation, cohort operations, and stakeholder communication through delivery."
+        vi: "Dẫn giảng, vận hành khoá học và truyền thông với các bên liên quan trong suốt quá trình triển khai."
+    - title: { en: "Evaluate", vi: "Đánh giá" }
+      text:
+        en: "Kirkpatrick levels and ROI reported back to the business, then improved."
+        vi: "Báo cáo các cấp độ Kirkpatrick và ROI cho phía kinh doanh, rồi cải tiến tiếp."
+
+# ── 7. Liên hệ ──
+contact:
+  eyebrow: { en: "Contact", vi: "Liên hệ" }
+  title:
+    en: "Let's design \nsomething that sticks*?*"
+    vi: "Cùng thiết kế \nđiều gì đó thật sự đọng lại*?*"
+  intro:
+    en: "Open to Learning Experience Designer, Instructional Designer, Senior L&D, Performance Management, HR Business Partner, and Employee Engagement roles. I reply within two business days."
+    vi: "Sẵn sàng cho các vị trí Learning Experience Designer, Instructional Designer, Senior L&D, Performance Management, HR Business Partner và Employee Engagement. Tôi phản hồi trong vòng hai ngày làm việc."
+  email_button: { en: "Email me", vi: "Gửi email" }
+  linkedin_button: { en: "Connect on LinkedIn", vi: "Kết nối trên LinkedIn" }
+  email_label: { en: "Email", vi: "Email" }
+  location_label: { en: "Location", vi: "Địa điểm" }
+  location: { en: "Ho Chi Minh City", vi: "TP. Hồ Chí Minh" }

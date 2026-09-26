@@ -1,0 +1,27 @@
+# Kiểm tra tự động mỗi khi có thay đổi: lỗi code, lỗ hổng thư viện, đủ EN/VI, đóng gói được.
+# Kho đang riêng tư nên chưa đưa lên GitHub Pages; bước đưa lên mạng sẽ thêm khi lên Hostinger.
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm audit --audit-level=high --omit=dev
+      - name: Build (content check runs first)
+        run: npm run build
