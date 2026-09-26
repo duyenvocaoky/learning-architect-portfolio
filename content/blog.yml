@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────
+# TRANG BLOG — danh sách bài viết
+# Thêm bài mới: tạo file content/blog/<ten-bai>.yml (chép từ bài có sẵn),
+# rồi thêm tên file (không có .yml) vào danh sách "posts" bên dưới.
+# Bài đứng đầu danh sách hiện to nhất.
+# ─────────────────────────────────────────────────────────────
+
+meta:
+  title: { en: "Blog — Duyen Vo Cao Ky", vi: "Blog — Võ Cao Kỳ Duyên" }
+  description:
+    en: "Notes on designing learning: courses, programs, and what I learned building them."
+    vi: "Ghi chép về thiết kế học tập: khóa học, chương trình và những điều mình học được khi làm."
+
+title: { en: "Notes on designing learning", vi: "Ghi chép về thiết kế học tập" }
+intro:
+  en: "What I learn while designing courses and programs, written down so others can use it."
+  vi: "Những điều mình học được khi thiết kế khóa học và chương trình, ghi lại để ai cần thì dùng."
+read: { en: "Read the post", vi: "Đọc bài" }
+
+posts:
+  - how-i-design-a-course

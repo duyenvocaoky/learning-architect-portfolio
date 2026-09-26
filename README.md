@@ -13,6 +13,8 @@ Toàn bộ chữ trên trang nằm trong thư mục `content/`:
 | `content/common.yml` | Menu, chân trang, email, LinkedIn |
 | `content/home.yml` | Trang chủ (xếp theo thứ tự từ trên xuống) |
 | `content/retail-talent.yml` | Case study chương trình nhân tài bán lẻ |
+| `content/blog.yml` | Trang Blog: tiêu đề, lời giới thiệu, danh sách bài (thứ tự hiển thị) |
+| `content/blog/<tên-bài>.yml` | Từng bài blog. Thêm bài mới: chép một file có sẵn, đổi tên, rồi thêm tên vào `posts` trong `blog.yml` |
 
 Quy tắc:
 - Mỗi câu có 2 dòng: `en: "..."` và `vi: "..."`. Chỉ sửa chữ trong dấu ngoặc kép.

@@ -27,8 +27,10 @@ export default function HomePage({ lang }) {
             <a href="#ai">{n.ai}</a>
             <a href="#process">{n.process}</a>
             <a href="#contact">{n.contact}</a>
+            <Link href={pagePath(lang, "/blog/")}>{n.blog}</Link>
           </div>
           <div className="nav-right">
+            <Link href={pagePath(lang, "/blog/")} className="nav-blog-m">{n.blog}</Link>
             <LangSwitch lang={lang} path="/" />
             <a href="#contact" className="btn primary sm">{n.cta}</a>
           </div>
@@ -210,7 +212,7 @@ export default function HomePage({ lang }) {
         </section>
       </main>
 
-      <Footer common={common} />
+      <Footer common={common} lang={lang} />
     </div>
   );
 }

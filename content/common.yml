@@ -19,6 +19,7 @@ nav:
   ai: { en: "AI", vi: "AI" }
   process: { en: "Process", vi: "Quy trình" }
   contact: { en: "Contact", vi: "Liên hệ" }
+  blog: { en: "Blog", vi: "Blog" }
   cta: { en: "Let's Talk", vi: "Trò chuyện" }
 
 footer:
@@ -29,8 +30,5 @@ footer:
 case:
   back: { en: "← Back to work", vi: "← Quay lại dự án" }
   back_all: { en: "← Back to all work", vi: "← Quay lại tất cả dự án" }
-  period: { en: "Period", vi: "Thời gian" }
-  company: { en: "Company", vi: "Công ty" }
-  domain: { en: "Domain", vi: "Lĩnh vực" }
-  methods: { en: "Methods", vi: "Phương pháp" }
+  back_blog: { en: "Back to blog", vi: "Quay lại blog" }
   coming_soon: { en: "Case study coming soon", vi: "Case study sắp ra mắt" }

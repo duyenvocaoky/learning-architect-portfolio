@@ -21,10 +21,12 @@ hero:
 context:
   eyebrow: { en: "Context", vi: "Bối cảnh" }
   facts:
-    period: { en: "2022 – 2025", vi: "2022 – 2025" }
-    company: { en: "AEON Vietnam", vi: "AEON Việt Nam" }
-    domain: { en: "L&D · Talent Management", vi: "L&D · Quản trị nhân tài" }
-    methods: "WIAL Action Learning · 70/20/10 · Kirkpatrick"
+    - label: { en: "Period", vi: "Thời gian" }
+      value: "2022 – 2025"
+    - label: { en: "Domain", vi: "Lĩnh vực" }
+      value: { en: "L&D · Talent Management", vi: "L&D · Quản trị nhân tài" }
+    - label: { en: "Methods", vi: "Phương pháp" }
+      value: "WIAL Action Learning · 70/20/10 · Kirkpatrick"
   lead:
     en: "AEON Vietnam's rapid retail expansion demands a ready pipeline of line managers. The retail talent program develops high-potential team leaders into line-manager candidates through structured leadership, technical, and people-management training."
     vi: "Tốc độ mở rộng bán lẻ của AEON Việt Nam cần một nguồn quản lý luôn sẵn sàng. Chương trình nhân tài bán lẻ phát triển các trưởng nhóm tiềm năng cao thành ứng viên cấp quản lý thông qua đào tạo lãnh đạo, chuyên môn và quản lý con người."
