@@ -58,7 +58,7 @@ export default function HomePage({ lang }) {
               <div className="bubble b4" />
               <div className="bubble b5" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={asset("/img/duyen-cutout.png")} alt={c.hero.photo_alt} width="920" height="1273" fetchPriority="high" />
+              <img src={asset("/img/duyen-cutout.webp")} alt={c.hero.photo_alt} width="920" height="1273" fetchPriority="high" />
             </div>
           </div>
         </section>
