@@ -55,4 +55,11 @@ git push                   # hoặc bấm "Push origin" trong GitHub Desktop
 ## Sau này
 
 - **Hostinger:** file `public/.htaccess` đã soạn sẵn (bắt buộc HTTPS, header bảo mật).
+  Khi đóng gói cho tên miền riêng, đặt `SITE_URL=https://tenmien-cua-ban.com` để ảnh xem trước khi chia sẻ link trỏ đúng chỗ.
+
+## Ảnh xem trước & icon
+
+- `public/og.png` (1200×630): ảnh hiện ra khi gửi link qua LinkedIn, Zalo, Facebook.
+- `public/icon.png`, `public/apple-icon.png`: icon trên tab trình duyệt và màn hình điện thoại.
+- Ảnh mới nên lưu dạng `.webp` cho nhẹ (nhẹ hơn PNG khoảng 5–10 lần).
 - **Supabase:** chỉ dùng khoá công khai trên trang web; mọi bảng bật RLS. Không bao giờ đưa khoá bí mật vào code.
