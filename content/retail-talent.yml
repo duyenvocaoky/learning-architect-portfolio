@@ -8,15 +8,15 @@ meta:
     en: "Talent pipeline for line-manager succession — Duyen Vo Cao Ky"
     vi: "Nguồn nhân tài kế nhiệm cấp quản lý — Võ Cao Kỳ Duyên"
   description:
-    en: "A leadership program redesigned around Action Learning: 46% promotion rate, 1,200% average ROI."
-    vi: "Chương trình lãnh đạo thiết kế lại theo Action Learning: 46% tỷ lệ thăng tiến, ROI trung bình 1.200%."
+    en: "A leadership program redesigned around Action Learning: 120% average ROI, 100% completion."
+    vi: "Chương trình lãnh đạo thiết kế lại theo Action Learning: ROI trung bình 120%, hoàn thành 100%."
 
 hero:
   chip: { en: "Project 01 · Retail talent program", vi: "Dự án 01 · Chương trình nhân tài bán lẻ" }
   title: { en: "Talent pipeline for line-manager succession", vi: "Nguồn nhân tài kế nhiệm cấp quản lý" }
   intro:
-    en: "A leadership program that develops high-potential team leaders into line-manager candidates. Redesigned around Action Learning and measured on promotion and ROI."
-    vi: "Chương trình phát triển năng lực lãnh đạo, đưa các trưởng nhóm tiềm năng cao trở thành ứng viên cấp quản lý. Được thiết kế lại theo Action Learning và đo bằng tỷ lệ thăng tiến cùng ROI."
+    en: "A leadership program that develops high-potential team leaders into line-manager candidates. Redesigned around Action Learning and measured on ROI."
+    vi: "Chương trình phát triển năng lực lãnh đạo, đưa các trưởng nhóm tiềm năng cao trở thành ứng viên cấp quản lý. Được thiết kế lại theo Action Learning và đo bằng ROI."
 
 context:
   eyebrow: { en: "Context", vi: "Bối cảnh" }
@@ -28,8 +28,8 @@ context:
     - label: { en: "Methods", vi: "Phương pháp" }
       value: "WIAL Action Learning · 70/20/10 · Kirkpatrick"
   lead:
-    en: "AEON Vietnam's rapid retail expansion demands a ready pipeline of line managers. The retail talent program develops high-potential team leaders into line-manager candidates through structured leadership, technical, and people-management training."
-    vi: "Tốc độ mở rộng bán lẻ của AEON Việt Nam cần một nguồn quản lý luôn sẵn sàng. Chương trình nhân tài bán lẻ phát triển các trưởng nhóm tiềm năng cao thành ứng viên cấp quản lý thông qua đào tạo lãnh đạo, chuyên môn và quản lý con người."
+    en: "The company's rapid expansion demands a ready pipeline of line managers. The talent program develops high-potential team leaders into line-manager candidates through structured leadership, technical, and people-management training."
+    vi: "Tốc độ mở rộng nhanh của công ty cần một nguồn quản lý luôn sẵn sàng. Chương trình nhân tài phát triển các trưởng nhóm tiềm năng cao thành ứng viên cấp quản lý thông qua đào tạo lãnh đạo, chuyên môn và quản lý con người."
   body:
     en: "With a large frontline workforce, faster internal promotion cuts cost and onboarding time. Without the program, line-manager vacancies would depend solely on external recruitment."
     vi: "Với lực lượng tuyến đầu lớn, thăng tiến nội bộ nhanh hơn giúp giảm chi phí và thời gian hội nhập. Nếu không có chương trình này, các vị trí quản lý trống sẽ phụ thuộc hoàn toàn vào tuyển dụng bên ngoài."
@@ -40,12 +40,10 @@ objective:
   items:
     - en: "Move high-potential team leaders into line-manager readiness through structured leadership, technical, and people-management training."
       vi: "Đưa các trưởng nhóm tiềm năng cao đến mức sẵn sàng làm quản lý qua đào tạo lãnh đạo, chuyên môn và quản lý con người có cấu trúc."
-    - en: "Hit a 10% promotion rate from each cohort, the target set for the program."
-      vi: "Đạt tỷ lệ thăng tiến 10% ở mỗi khoá, mục tiêu đặt ra cho chương trình."
     - en: "Reduce reliance on external recruitment for line-manager vacancies, cutting hiring cost and onboarding time."
       vi: "Giảm phụ thuộc vào tuyển dụng bên ngoài cho vị trí quản lý, cắt giảm chi phí tuyển dụng và thời gian hội nhập."
-    - en: "Prove program value in numbers, with promotion rate and ROI as the reported measures."
-      vi: "Chứng minh giá trị chương trình bằng con số, với tỷ lệ thăng tiến và ROI là chỉ số báo cáo."
+    - en: "Prove program value in numbers, with ROI as the reported measure."
+      vi: "Chứng minh giá trị chương trình bằng con số, với ROI là chỉ số báo cáo."
 
 role:
   eyebrow: { en: "My Role", vi: "Vai trò của tôi" }
@@ -80,13 +78,11 @@ results:
   eyebrow: { en: "Result · 2025", vi: "Kết quả · 2025" }
   title: { en: "What it delivered", vi: "Kết quả mang lại" }
   headline:
-    - value: "46%"
-      label: { en: "Promotion rate, 4.6× the 10% target", vi: "Tỷ lệ thăng tiến, gấp 4,6 lần mục tiêu 10%" }
-    - value: "1,200%"
+    - value: "120%"
       label: { en: "Average program ROI", vi: "ROI trung bình của chương trình" }
-  secondary:
     - value: "100%"
       label: { en: "Completion rate", vi: "Tỷ lệ hoàn thành" }
+  secondary:
     - value: "90%"
       label: { en: "On-time milestone delivery", vi: "Hoàn thành mốc tiến độ đúng hạn" }
     - value: "10+"
