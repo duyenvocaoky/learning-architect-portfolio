@@ -43,8 +43,8 @@ overview:
   body:
     - en: "The course gives regional managers the basics of recruiting and interviewing, so they hire the right person for the right job and fewer new hires quit. Managers take it online before an in-person practice class."
       vi: "Khóa học cung cấp kiến thức nền tảng giúp cấp quản lý ở thị trường nâng cao kỹ năng tuyển dụng và phỏng vấn ứng viên, để tuyển đúng người đúng việc và giảm tỷ lệ nghỉ việc. Người học hoàn thành khóa online trước khi lớp thực hành offline diễn ra."
-    - en: "In some regions, managers were losing sales-support staff at a high rate. The causes were many: the work environment, knowledge, skills, motivation. Training can address gaps in knowledge and skills, so that's where I focused."
-      vi: "Cấp quản lý ở một số vùng, khu vực đặc thù đang gặp vấn đề: tỷ lệ nghỉ việc của nhân viên hỗ trợ kinh doanh cao. Có rất nhiều nguyên nhân (môi trường, kiến thức, kỹ năng, động lực…). Về phía đào tạo, mình tập trung giải quyết những vấn đề đến từ thiếu kiến thức và kỹ năng."
+    - en: "Managers needed to hire better and keep the people they hired. Hiring outcomes depend on many things: the work environment, knowledge, skills, motivation. Training can address gaps in knowledge and skills, so that's where I focused."
+      vi: "Cấp quản lý cần nâng cao chất lượng tuyển dụng và giữ chân người mới. Kết quả tuyển dụng phụ thuộc nhiều yếu tố (môi trường, kiến thức, kỹ năng, động lực…). Về phía đào tạo, mình tập trung giải quyết những vấn đề đến từ thiếu kiến thức và kỹ năng."
 
 role:
   title: { en: "My part", vi: "Nhiệm vụ của mình" }
@@ -63,8 +63,8 @@ process:
   steps:
     - title: { en: "Outline", vi: "Outline chương trình" }
       text:
-        en: "The outline sets the flow: how modules are structured and ordered, and which content goes in, all tied to the original goal. It took me the longest because it went through the most feedback rounds. The course had to fit the specifics of the finance industry, so every detail had to be accurate. A good outline saves you from tearing things down and rebuilding later."
-        vi: "Outline chú trọng vào mạch bài: cấu trúc và cách sắp xếp các module, chọn lọc nội dung có chủ đích, bám sát mục tiêu ban đầu. Đây là phần mình tốn nhiều thời gian nhất vì cần nhiều vòng feedback của senior và manager. Nội dung gắn với bối cảnh cụ thể, đặc thù của lĩnh vực Tài chính, nên thông tin phải thật chính xác. Một outline tốt giúp hạn chế việc \"đập đi xây lại\" và tiết kiệm rất nhiều thời gian."
+        en: "The outline sets the flow: how modules are structured and ordered, and which content goes in, all tied to the original goal. It took me the longest because it went through the most feedback rounds. The course had to fit the specifics of the business, so every detail had to be accurate. A good outline saves you from tearing things down and rebuilding later."
+        vi: "Outline chú trọng vào mạch bài: cấu trúc và cách sắp xếp các module, chọn lọc nội dung có chủ đích, bám sát mục tiêu ban đầu. Đây là phần mình tốn nhiều thời gian nhất vì cần nhiều vòng feedback của senior và manager. Nội dung gắn với bối cảnh cụ thể, đặc thù của doanh nghiệp, nên thông tin phải thật chính xác. Một outline tốt giúp hạn chế việc \"đập đi xây lại\" và tiết kiệm rất nhiều thời gian."
       models: "Rapid Prototyping, Bloom's Taxonomy, ABCD Learning Objectives"
       image: "/blog/how-i-design-a-course/1-outline.webp"
       image_alt:
