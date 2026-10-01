@@ -55,8 +55,8 @@ experience:
               vi: "Triển khai và liên tục cải tiến chương trình nhân tài bán lẻ khu vực miền Nam toàn trình trong 3 năm, một chương trình đa hình thức (2–6 tháng; offline, hybrid, leadership café & learn, học qua dự án) xây dựng nguồn kế nhiệm từ nhân viên tuyến đầu đến cấp quản lý cửa hàng trong một mạng lưới bán lẻ mở rộng nhanh."
             - en: "Led planning, facilitation, and evaluation, and proposed business-aligned improvements to keep a proven program fit for evolving operations."
               vi: "Chủ trì hoạch định, dẫn giảng và đánh giá; đề xuất các cải tiến gắn với kinh doanh để chương trình luôn phù hợp với vận hành thay đổi."
-            - en: "Proven results across cohorts: 46% promotion rate, 95% completion, and ~1,200% ROI."
-              vi: "Kết quả đã được chứng minh qua các khoá: 46% tỷ lệ thăng tiến, 95% hoàn thành và ROI ~1.200%."
+            - en: "Proven results across cohorts: 00% promotion rate, 95% completion, and ~1,200% ROI."
+              vi: "Kết quả đã được chứng minh qua các khoá: 00% tỷ lệ thăng tiến, 95% hoàn thành và ROI ~1.200%."
         - label: { en: "Capability Building & Learning Experience", vi: "Xây dựng năng lực & trải nghiệm học tập" }
           items:
             - en: "Pioneered the company's first Critical Thinking program, its first delivered by internal trainers, and owned it end to end, from a training needs analysis with 100+ staff through design, facilitation, and evaluation."
@@ -184,20 +184,20 @@ work:
       tag: { en: "Retail talent program", vi: "Chương trình nhân tài bán lẻ" }
       title: { en: "Talent pipeline for line-manager succession", vi: "Nguồn nhân tài kế nhiệm cấp quản lý" }
       text:
-        en: "Redesigned a leadership program on Action Learning and a 4Ps framework, doubling the cohort as Program-in-Charge. 1,200% average ROI."
-        vi: "Thiết kế lại chương trình lãnh đạo theo Action Learning và khung 4Ps, tăng gấp đôi quy mô khoá với vai trò Program-in-Charge. ROI trung bình 1.200%."
+        en: "Redesigned a leadership program on Action Learning and a framework, doubling the cohort as Program-in-Charge. 120% average ROI."
+        vi: "Thiết kế lại chương trình lãnh đạo theo Action Learning và khung năng lực, tăng gấp đôi quy mô khoá với vai trò Program-in-Charge. ROI trung bình 120%."
     - slug: ""
       tone: "wash"
-      stat: "57.5%"
+      stat: "00%"
       stat_label: { en: "promoted", vi: "thăng tiến" }
       tag: { en: "Franchise Model", vi: "Mô hình nhượng quyền" }
       title: { en: "A franchise model to scale the talent pipeline", vi: "Mô hình nhượng quyền để mở rộng nguồn nhân tài" }
       text:
-        en: "Designed a co-delivery model so HR store teams run the training while the Academy keeps quality. 104 learners through the franchise."
-        vi: "Thiết kế mô hình đồng triển khai để đội HR cửa hàng tổ chức đào tạo, Học viện giữ chất lượng. 104 học viên qua mô hình nhượng quyền."
+        en: "Designed a co-delivery model so HR store teams run the training while the Academy keeps quality. 50% learners through the franchise."
+        vi: "Thiết kế mô hình đồng triển khai để đội HR cửa hàng tổ chức đào tạo, Học viện giữ chất lượng. 50% học viên qua mô hình nhượng quyền."
     - slug: ""
       tone: "paper"
-      stat: "1,155"
+      stat: "1,000+"
       stat_label: { en: "reached", vi: "tiếp cận" }
       tag: { en: "Coaching & CoP", vi: "Kèm cặp & Cộng đồng thực hành" }
       title: { en: "Building a self-sustaining learning organization", vi: "Xây dựng tổ chức học tập tự duy trì" }
@@ -215,7 +215,7 @@ work:
         vi: "Xây dựng các kênh học tập số đưa việc học ra ngoài lớp học cho lực lượng tuyến đầu phân tán. ROI chuyển đổi LMS trên 200%."
     - slug: ""
       tone: "wash"
-      stat: "689"
+      stat: "600+"
       stat_label: { en: "students", vi: "sinh viên" }
       tag: { en: "University Partnerships", vi: "Hợp tác đại học" }
       title: { en: "Employer branding & external talent pipeline", vi: "Thương hiệu tuyển dụng & nguồn nhân tài bên ngoài" }
