@@ -65,8 +65,8 @@ experience:
               vi: "Xây dựng chương trình Train-the-Trainer để phát triển năng lực đào tạo nội bộ, trang bị cho 100+ giảng viên nội bộ tự tổ chức chương trình, kèm bộ mẫu thiết kế hoạt động tái sử dụng."
             - en: "Facilitated career-orientation programs, self-discovery and career-direction experiences helping employees position their growth within the company. (1,000+ employees reached.)"
               vi: "Dẫn giảng các chương trình định hướng nghề nghiệp, trải nghiệm tự khám phá và định hướng giúp nhân viên xác định lộ trình phát triển trong công ty. (1.000+ nhân viên tiếp cận.)"
-            - en: "Scaled the company's education podcast as production & QC contributor across 26+ episodes; grew from a 9K-view target (2023) to 170K combined views (2024). (ROI >300%.)"
-              vi: "Mở rộng podcast giáo dục của công ty với vai trò sản xuất và kiểm soát chất lượng 26+ tập; tăng từ mục tiêu 9K lượt xem (2023) lên 170K lượt xem tổng (2024). (ROI >300%.)"
+            - en: "Scaled the company's education podcast as production & QC contributor across 26+ episodes, reaching 170K combined views in 2024. (ROI >300%.)"
+              vi: "Mở rộng podcast giáo dục của công ty với vai trò sản xuất và kiểm soát chất lượng 26+ tập, đạt 170K lượt xem tổng trong năm 2024. (ROI >300%.)"
             - en: "Launched the company's first future-readiness program, a multi-format program (MOOC, guided reading, community of practice, and external experts) building future-ready skills focused on problem-solving, self-management, and working with people, for head-office employees."
               vi: "Khởi tạo chương trình future-readiness đầu tiên của công ty, đa hình thức (MOOC, đọc có hướng dẫn, cộng đồng thực hành và chuyên gia bên ngoài), phát triển năng lực tương lai tập trung vào giải quyết vấn đề, tự quản lý và làm việc với con người, cho khối văn phòng."
             - en: "Project-managed delivery: managed vendors and proposed the e-learning provider, consulted on course production and packaging within the LMS, and operated the community of practice."
@@ -81,8 +81,8 @@ experience:
               vi: "Đóng gói chương trình nhân tài bán lẻ và phối hợp với đội HR cửa hàng để đồng triển khai, với vai trò tư vấn và mentor, tăng 40% số nhân tài được đào tạo trong năm (lên 100+, hoàn thành 100%)."
             - en: "Partnered cross-functionally on university partnerships, connected with 5+ universities, consulted them on tailored workshops, and served as a guest speaker, contributing to the company's employer-of-choice strategy."
               vi: "Phối hợp liên phòng ban trong hợp tác đại học: kết nối 5+ trường, tư vấn thiết kế workshop riêng và tham gia làm diễn giả khách mời, góp phần vào chiến lược employer-of-choice của công ty."
-            - en: "Consulted the Head of Department and secured General Manager approval for a new LMS, ran comprehensive market research and delivered a formal proposal achieving 200% ROI by replacing the legacy system, now serving 1,000+ employees."
-              vi: "Tư vấn Trưởng phòng và được Giám đốc phê duyệt hệ thống LMS mới; thực hiện nghiên cứu thị trường toàn diện và trình đề xuất chính thức, đạt ROI 200% khi thay thế hệ thống cũ, hiện phục vụ 1.000+ nhân viên."
+            - en: "Proposed and rolled out a new LMS, backed by market research and a formal business case, achieving 200% ROI and now serving 1,000+ employees."
+              vi: "Đề xuất và triển khai hệ thống LMS mới, dựa trên nghiên cứu thị trường và đề án chính thức, đạt ROI 200%, hiện phục vụ 1.000+ nhân viên."
     - years: "2020 — 2022"
       dates: { en: "Oct 2020 – Mar 2022", vi: "10/2020 – 03/2022" }
       company: "Home Credit Vietnam"
@@ -220,8 +220,8 @@ work:
       tag: { en: "University Partnerships", vi: "Hợp tác đại học" }
       title: { en: "Employer branding & external talent pipeline", vi: "Thương hiệu tuyển dụng & nguồn nhân tài bên ngoài" }
       text:
-        en: "Built university partnerships that create an early funnel and feed the management-trainee program. 138% of target."
-        vi: "Xây dựng hợp tác đại học tạo nguồn ứng viên từ sớm cho chương trình quản trị viên tập sự. Đạt 138% mục tiêu."
+        en: "Built university partnerships that create an early funnel and feed the management-trainee program."
+        vi: "Xây dựng hợp tác đại học tạo nguồn ứng viên từ sớm cho chương trình quản trị viên tập sự."
 
 # ── 5. Dự án AI ──
 ai:
