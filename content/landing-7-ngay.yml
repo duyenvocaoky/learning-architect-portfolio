@@ -56,10 +56,14 @@ situation:
 cost:
   title: "Cái giá của một Bản yêu cầu đào tạo mơ hồ"
   intro: "Một quyết định chưa chốt ở đầu dự án thường không biến mất. Nó xuất hiện trở lại ở một vòng sửa tốn công hơn. Đôi khi bạn còn phải gánh cả những quyết định mà bản thân không có khả năng tác động."
-  items:
-    - "Chưa chốt mục tiêu, sườn bài → nội dung nào cũng thành cần thiết, cần thêm."
-    - "Chưa chốt phạm vi chỉnh sửa ở mỗi vòng → feedback không có điểm dừng, đến khi chẳng thể gia hạn deadline thêm."
-    - "Chưa chốt người duyệt → bản hoàn thiện bỗng có thêm người vào sửa."
+  # Mỗi thẻ: title (chưa chốt gì) → result (hậu quả)
+  risks:
+    - title: "Chưa chốt mục tiêu, sườn bài"
+      result: "Nội dung nào cũng thành cần thiết, cần thêm."
+    - title: "Chưa chốt phạm vi chỉnh sửa ở mỗi vòng"
+      result: "Feedback không có điểm dừng, đến khi chẳng thể gia hạn deadline thêm."
+    - title: "Chưa chốt người duyệt"
+      result: "Bản hoàn thiện bỗng có thêm người vào sửa."
   closing: "Vì vậy, trước khi bắt tay vào thiết kế, bạn cần sự rõ ràng: vấn đề thực sự đằng sau yêu cầu đào tạo, tất cả những ai liên quan, và phạm vi công việc trước khi thật sự đi sâu vào thực thi."
   why_title: "Vì sao các mẫu yêu cầu đào tạo có sẵn chưa đủ?"
   why_intro: "Một mẫu sẵn trên mạng có thể cho bạn biết các hạng mục cần điền trong Bản yêu cầu đào tạo, nhưng không giúp bạn nhìn thấy vấn đề thực sự trên chính trường hợp của mình. Bạn có thể điền đủ các ô nhưng vẫn chưa rõ:"
@@ -86,15 +90,19 @@ how:
     - title: "Viết Bản yêu cầu đào tạo đầu tiên"
       text: "Mang dự án thật vào, dự buổi nhóm thứ nhất và xác định những điểm phải rõ."
     - title: "Chốt vai trò và điểm còn thiếu"
-      text: "Xác định ai duyệt, Chuyên gia chốt gì, Người thiết kế đào tạo làm gì và còn câu hỏi nào chưa có câu trả lời. Nhận góp ý lần 1, soạn câu hỏi gửi người phụ trách nội dung."
+      text: "Xác định ai duyệt, Chuyên gia chốt gì, Người thiết kế đào tạo làm gì và còn câu hỏi nào chưa có câu trả lời."
+      result: "Nhận góp ý lần 1, soạn câu hỏi gửi người phụ trách nội dung."
     - title: "Sửa Bản yêu cầu đào tạo và chuẩn bị nội dung xác nhận"
       text: "Dự buổi nhóm thứ hai, sửa bản yêu cầu, nhận góp ý lần 2 và chuẩn bị bản gửi cho người liên quan."
   time: "Hoàn thành trong 7 ngày, tổng thời gian làm khoảng 3–4 giờ, tính cả hai buổi nhóm."
   dates: "Thời gian triển khai: 20–27/10/2026."
   includes_label: "Để tạo ra những đầu ra trên, chương trình gồm:"
-  includes:
-    - "2 buổi nhóm trực tuyến 60 phút và 2 vòng góp ý viết"
-    - "03 mẫu thực hành: mẫu Bản yêu cầu đào tạo một trang sáu mục kèm một case giả định đã điền; bảng phân vai theo từng đầu ra; phiếu tự kiểm tra năm câu cùng mẫu email hỏi Chuyên gia, Người yêu cầu, Người duyệt"
+  sessions: "2 buổi nhóm trực tuyến 60 phút và 2 vòng góp ý viết"
+  templates_label: "03 mẫu thực hành, gồm:"
+  templates:
+    - "Mẫu Bản yêu cầu đào tạo một trang sáu mục kèm một case giả định đã điền"
+    - "Bảng phân vai theo từng đầu ra"
+    - "Phiếu tự kiểm tra năm câu cùng mẫu email hỏi Chuyên gia, Người yêu cầu, Người duyệt"
 
 # ── 6. Xem trước mẫu ──
 # Chưa có ảnh → khối này tự ẩn. Có ảnh thì bỏ file vào public/7-ngay/ và điền đường dẫn.
