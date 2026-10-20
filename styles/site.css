@@ -613,3 +613,80 @@ a.fact-value:hover { color: var(--coral); }
 
 /* Section titles and intros wrap naturally, with lines balanced (no hand-placed breaks) */
 .h2, .section-intro { text-wrap: balance; }
+
+/* ============================================================
+   LANDING PAGE (7 ngày) — reuses the blog reading column.
+   The one accent: real phrases shown as chat bubbles.
+   ============================================================ */
+.lp-nav { justify-content: space-between; }
+.lp-hero h1 { margin-top: 10px; }
+.lp-subtitle { font-size: clamp(20px, 2.4vw, 24px); font-weight: 700; color: var(--ink); line-height: 1.35; margin-top: 18px; }
+.lp-lead { font-size: 19px; line-height: 1.65; margin-top: 18px; }
+.lp-promise { font-size: 18px; font-weight: 700; color: var(--ink); margin-top: 26px; }
+.lp-note { font-size: 16px; color: var(--ink-muted); margin-top: 18px; }
+.lp-h3 { font-size: 20px; font-weight: 700; color: var(--ink); margin-top: 32px; }
+.lp .post section > p, .lp-hero p { text-wrap: pretty; }
+
+/* Chat bubbles */
+.lp-bubbles { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 10px; }
+.lp-bubbles li {
+  position: relative;
+  justify-self: start;
+  max-width: 88%;
+  padding: 12px 18px;
+  border-radius: 20px 20px 20px 6px;
+  background: var(--paper-card);
+  border: 1px solid var(--line-strong);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.lp-bubbles li::before { content: "“"; color: var(--coral); font-weight: 700; }
+.lp-bubbles li::after { content: "”"; color: var(--coral); font-weight: 700; }
+.lp-bubbles.muted li { background: transparent; color: var(--ink-soft); }
+.lp-bubbles.mine li {
+  justify-self: end;
+  border-radius: 20px 20px 6px 20px;
+  background: var(--coral-wash);
+  border-color: var(--coral-wash);
+}
+
+/* Check / cross lists */
+.lp-checks, .lp-cross { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 12px; }
+.lp-checks li, .lp-cross li { position: relative; padding-left: 34px; font-size: 18px; line-height: 1.6; }
+.lp-checks li::before, .lp-cross li::before {
+  position: absolute; left: 0; top: 3px;
+  width: 22px; height: 22px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700;
+}
+.lp-checks li::before { content: "✓"; background: var(--coral); color: var(--white); }
+.lp-cross li::before { content: "✕"; background: var(--paper-deep); color: var(--ink-muted); border: 1px solid var(--line-strong); }
+.lp-arrows { margin-top: 16px; }
+.lp-arrows li { font-size: 18px; }
+
+/* CTA */
+.lp-cta-row { margin-top: 30px; }
+.lp-cta { white-space: normal; text-align: center; line-height: 1.35; }
+
+/* Fit: two columns on wide screens */
+.lp-fit { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 8px 32px; }
+
+/* About + pricing */
+.lp-about { margin-top: 32px; padding: 24px 28px; border-left: 3px solid var(--coral); background: var(--paper-card); border-radius: 0 var(--radius-lg) var(--radius-lg) 0; }
+.lp-about .lp-h3 { margin-top: 0; }
+.lp-about p { font-size: 17px; line-height: 1.65; margin-top: 12px; }
+.lp-price { background: var(--ink); color: var(--paper); border-radius: var(--radius-xl); padding: 36px; }
+.lp-price h2, .lp-price p { color: var(--paper); }
+.lp-price-tag { font-size: clamp(44px, 6vw, 60px); font-weight: 700; letter-spacing: -0.025em; line-height: 1; margin-top: 18px; color: var(--white) !important; }
+.lp-price-tag span { font-size: 18px; font-weight: 400; color: var(--ink-faint); margin-left: 6px; letter-spacing: 0; }
+.lp-details { margin: 24px 0 0; display: grid; gap: 14px; border-top: 1px solid rgba(255, 247, 235, 0.2); padding-top: 20px; }
+.lp-details dt { font-size: 14px; color: var(--ink-faint); }
+.lp-details dd { margin: 3px 0 0; font-size: 17px; line-height: 1.55; color: var(--paper); }
+@media (max-width: 760px) {
+  .lp-price { padding: 26px 20px; }
+  .lp-bubbles li { max-width: 100%; }
+}
+
+/* Landing keeps its register button visible on phones (the site hides small nav buttons there) */
+@media (max-width: 760px) { .lp-nav .btn.sm { display: inline-flex; } }
