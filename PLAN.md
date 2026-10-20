@@ -76,7 +76,7 @@
 | 4b.1 | Tạo skill `landing-page-ban-hang` (tối ưu bán hàng) để dùng lại cho các trang sau | Claude |
 | 4b.2 | Tự tạo Google Form, gửi link cho Claude | Diên Diên |
 | 4b.3 | Dựng landing `/7-ngay/` theo cấu trúc trang mẫu (chữ giữ bản Doc), gắn link form vào nút đăng ký | Claude |
-| 4b.4 | Duyệt các chỗ đã biên tập, xác nhận "hơn 6 năm" hay "khoảng 8 năm" kinh nghiệm | Diên Diên |
+| 4b.4 | Duyệt các chỗ đã biên tập ✅ Đã chốt "hơn 6 năm" kinh nghiệm; giữ nguyên lịch cũ (đã đóng đăng ký) | Diên Diên |
 | 4b.5 | Publish branch `landing-7-ngay` → PR → Merge | Diên Diên |
 
 Ghi chú: giữ nguyên các ngày trong bản Doc (hạn đăng ký 18/10, triển khai 20–27/10). Chưa cần thông tin thanh toán hay mã QR.
