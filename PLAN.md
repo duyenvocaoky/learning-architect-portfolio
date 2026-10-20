@@ -68,19 +68,16 @@
 ### Giai đoạn 4b: Landing page "7 ngày làm rõ yêu cầu và phân vai đào tạo" ⏳ Đang làm (từ 20/10/2026)
 **Kết quả mong muốn:**
 - 1 landing page bán sản phẩm "7 ngày làm rõ yêu cầu và phân vai cho dự án đào tạo" (990.000đ), chỉ tiếng Việt, tại `/7-ngay/`. Không đưa vào menu, dùng như link riêng để chia sẻ.
-- Nút đăng ký dẫn tới **1 Google Form duy nhất**, gồm thông tin liên hệ và phiếu đầu vào H1-00. Phiếu bỏ phần 4 (ghi chú riêng của Duyên) và phần 5 (nguồn). Mục D gộp thành 1 câu trả lời tự do.
-- **Email tự động** gửi ngay khi khách gửi form: xác nhận đã nhận đăng ký, Duyên đang ngắt kết nối tới 01/11 và sẽ phản hồi khi quay lại. Email **không** nói "đã nhận tiền".
+- Nút đăng ký **gắn link Google Form do Duyên tự tạo** (thông tin liên hệ + phiếu đầu vào dự án). Không dùng form hay email tự động (Duyên đã bỏ phần này ngày 20/10 vì thấy rủi ro).
 - Nguồn nội dung: Google Drive › PCCK5 › `7days | Bản chính Landing Page` và `H1-00 Phiếu đầu vào dự án`.
 
 | # | Việc | Ai làm |
 |---|---|---|
 | 4b.1 | Tạo skill `landing-page-ban-hang` (tối ưu bán hàng) để dùng lại cho các trang sau | Claude |
-| 4b.2 | Viết Google Apps Script tạo form + sheet + email tự động (`scripts/google/form-7-ngay.gs`) | Claude |
-| 4b.3 | Chạy script trên script.google.com, cấp quyền, gửi lại link form | Diên Diên |
-| 4b.4 | Dựng landing `/7-ngay/` theo skill bán hàng, gắn link form vào nút đăng ký | Claude |
-| 4b.5 | Gửi thử form bằng email của mình, xác nhận nhận được email tự động | Diên Diên |
-| 4b.6 | Duyệt các chỗ đã biên tập, xác nhận "hơn 6 năm" hay "khoảng 8 năm" kinh nghiệm | Diên Diên |
-| 4b.7 | Publish branch `landing-7-ngay` → PR → Merge | Diên Diên |
+| 4b.2 | Tự tạo Google Form, gửi link cho Claude | Diên Diên |
+| 4b.3 | Dựng landing `/7-ngay/` theo cấu trúc trang mẫu (chữ giữ bản Doc), gắn link form vào nút đăng ký | Claude |
+| 4b.4 | Duyệt các chỗ đã biên tập, xác nhận "hơn 6 năm" hay "khoảng 8 năm" kinh nghiệm | Diên Diên |
+| 4b.5 | Publish branch `landing-7-ngay` → PR → Merge | Diên Diên |
 
 Ghi chú: giữ nguyên các ngày trong bản Doc (hạn đăng ký 18/10, triển khai 20–27/10). Chưa cần thông tin thanh toán hay mã QR.
 
