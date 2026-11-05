@@ -34,7 +34,7 @@ function Cta({ c, href, ext, className = "" }) {
       <div className={`lp-cta-block ${className}`}>
         <span className={`btn lp-cta lp-closed ${className}`} aria-disabled="true">{c.closed_label}</span>
         <a className="lp-next" href={mailtoNext(c)}>
-          {c.next_label}: {c.contact_email}
+          {c.next_label}
         </a>
       </div>
     );

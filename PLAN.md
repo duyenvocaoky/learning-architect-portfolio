@@ -74,8 +74,8 @@ Diên Diên đề nghị thêm phương án đưa trang lên **Vercel** (một d
 1. **Gói miễn phí của Vercel (Hobby) không cho dùng thương mại.** Trang này đã có landing bán chương trình 990.000đ và kế hoạch bán hàng ở Giai đoạn 5, nên dùng gói Hobby là **trái điều khoản** của Vercel. Muốn dùng đúng luật phải lên gói **Pro (trả phí hằng tháng)**. Điều này lệch với mục tiêu "chạy miễn phí trước khi trả tiền cho Hostinger". Cloudflare Pages miễn phí và **cho phép** dùng thương mại.
 2. **Thêm một nhà cung cấp nữa.** Kế hoạch đang có GitHub Pages (đang chạy), Cloudflare Pages (Giai đoạn 3) và Hostinger (dự phòng). Thêm Vercel trái với nguyên tắc "càng ít bên liên quan càng tốt". Nên **chỉ chọn 1** trong Vercel hoặc Cloudflare.
 3. **Mã nguồn vẫn đang công khai.** Dù chọn Vercel hay Cloudflare, mục tiêu "giấu mã nguồn" chỉ đạt khi chuyển kho GitHub về Riêng tư (bước 3b.6 / 3.7). Trong lúc chờ, landing `/7-ngay/` đưa lên GitHub Pages thì code của nó cũng công khai.
-4. **Email công khai trên trang.** Landing `/7-ngay/` hiện ghi `duyenvocaoky@gmail.com` để người quan tâm hỏi đợt sau. Email công khai dễ bị gửi thư rác. Điều này chấp nhận được, nhưng nên biết trước.
-5. **Câu "Sau khi bấm đăng ký: bạn điền form…" trên landing không còn đúng**, vì đợt này đã đóng và không có form. Nên ẩn dòng này hoặc đổi thành hướng dẫn "nhắn email để nhận thông tin đợt sau".
+4. ✅ *Đã xử lý 05/11: ẩn địa chỉ email khỏi chữ trên trang, chỉ còn link "Nhắn Duyên…".* **Email công khai trên trang.** Landing `/7-ngay/` hiện ghi `duyenvocaoky@gmail.com` để người quan tâm hỏi đợt sau. Email công khai dễ bị gửi thư rác. Điều này chấp nhận được, nhưng nên biết trước.
+5. ✅ *Đã ẩn dòng này 05/11.* **Câu "Sau khi bấm đăng ký: bạn điền form…" trên landing không còn đúng**, vì đợt này đã đóng và không có form. Nên ẩn dòng này hoặc đổi thành hướng dẫn "nhắn email để nhận thông tin đợt sau".
 
 **Đề xuất của Claude:** chọn **Cloudflare Pages** thay cho Vercel, vì miễn phí, cho phép bán hàng và ít ràng buộc. Chỉ chọn Vercel nếu Diên Diên chấp nhận trả phí gói Pro.
 

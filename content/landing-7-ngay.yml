@@ -161,8 +161,6 @@ pricing:
   includes: "Gồm 3 mẫu thực hành, 2 buổi nhóm và 2 vòng góp ý trên dự án thật của bạn."
   limit: "Đợt này giới hạn tối đa 4 người để Duyên có thể đọc và góp ý trực tiếp từng Bản yêu cầu đào tạo."
   details:
-    - label: "Sau khi bấm đăng ký"
-      text: "Bạn điền form đăng ký, gồm thông tin liên hệ và Phiếu đầu vào dự án (khoảng 20–30 phút) để Duyên chuẩn bị: dự án đang làm là gì, Bản yêu cầu đào tạo hiện đang ở đâu, đang vướng chỗ nào, những ai liên quan."
     - label: "Hạn đăng ký"
       text: "18/10/2026"
     - label: "Lịch hai buổi nhóm"
