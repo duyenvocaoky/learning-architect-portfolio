@@ -1,0 +1,169 @@
+# ─────────────────────────────────────────────────────────────
+# LANDING PAGE: 7 ngày làm rõ yêu cầu và phân vai cho dự án đào tạo
+# Trang chỉ có tiếng Việt → viết chữ bình thường, không cần en/vi.
+# Nguồn: Google Drive › PCCK5 › "7days | Bản chính Landing Page"
+#
+# Cách sửa: chỉ sửa chữ trong dấu ngoặc kép, không xoá dấu cách đầu dòng.
+# ─────────────────────────────────────────────────────────────
+
+meta:
+  title: "7 ngày làm rõ yêu cầu và phân vai cho dự án đào tạo — Duyên"
+  description: "Mang một dự án đào tạo thật vào, sau 7 ngày bạn có Bản yêu cầu đào tạo, bảng phân vai và danh sách rào trước rủi ro. 990.000đ, tối đa 4 người."
+
+# ── Trạng thái đăng ký ──
+# closed: true  → mọi nút đăng ký hiện chữ "closed_label", mờ đi, không bấm được;
+#                 kèm link email để người quan tâm hỏi đợt sau.
+# closed: false → nút hiện chữ "cta" và dẫn tới form_url (link Google Form chị tự tạo).
+closed: true
+closed_label: "Đã đóng đăng ký đợt này"
+next_label: "Nhắn Duyên để nhận thông tin đợt sau"
+next_short: "Hỏi đợt sau"
+contact_email: "duyenvocaoky@gmail.com"
+next_subject: "Hỏi về đợt sau – 7 ngày làm rõ yêu cầu và phân vai đào tạo"
+
+form_url: ""
+cta: "ĐĂNG KÝ 7 NGÀY LÀM RÕ YÊU CẦU ĐÀO TẠO — 990.000Đ"
+
+# ── 1. Phần đầu ──
+hero:
+  kicker: "Chương trình 7 ngày cho người làm đào tạo"
+  title: "7 ngày làm rõ yêu cầu và phân vai cho dự án đào tạo"
+  subtitle: "Đừng bắt tay vào thiết kế khi yêu cầu đào tạo vẫn còn mơ hồ"
+  quotes:
+    - "Em chuyển tài liệu này thành khoá học nhé!"
+    - "Cứ làm trước đi rồi SME duyệt sau."
+  pain: "Đã bao giờ những câu nói này khiến bạn mất hàng chục giờ sửa đi sửa lại? Và trên hết là cảm giác loay hoay, bị động, bởi những đợt lật cả sườn nội dung vì feedback!"
+  promise: "Trong 7 ngày, bạn mang đến một dự án đào tạo thật và hoàn thiện:"
+  outputs:
+    - "1 Bản yêu cầu đào tạo sắc bén cho chính dự án hiện tại"
+    - "1 bảng phân vai rạch ròi: giai đoạn nào, ai duyệt cuối, giới hạn điều chỉnh"
+    - "1 danh sách rào trước rủi ro trước khi bắt tay vào làm"
+  closing: "Để lần làm việc tiếp theo không tiêu tốn của bạn nhiều giờ làm lại, vì những điều đáng ra đã nên được chốt từ đầu!"
+
+# ── 2. Tình huống quen thuộc ──
+situation:
+  title: "Tình huống quen thuộc"
+  intro: "Bạn nhận một file PowerPoint, vài tài liệu nguồn và một câu:"
+  request: "Em chuyển cái này thành khóa học nhé."
+  unclear_label: "Nhưng còn nhiều điều chưa rõ:"
+  unclear:
+    - "Người học cụ thể là ai? Kết quả cuối cùng cần đạt là gì?"
+    - "Nội dung nào Chuyên gia sẽ chịu trách nhiệm?"
+    - "Người thiết kế đào tạo được phép rút gọn hoặc sắp xếp lại tới đâu?"
+    - "Những ai là người liên quan đến dự án? Ai là người duyệt cuối?"
+    - "Khi nào được coi là ĐÃ ĐỦ THÔNG TIN để bắt đầu làm?"
+  then: "Và thế là bạn bắt tay làm trước. Đến lúc duyệt mới nghe:"
+  feedback:
+    - "Em thêm mục A, B, C vào nhé, anh sợ người học không hiểu kỹ phần này."
+    - "Phần này không được bỏ."
+    - "Bản nội dung đợt trước duyệt ok rồi, nhưng video chị muốn chỉnh vài ý."
+    - "Người duyệt cuối lại là một bên khác."
+
+# ── 3. Cái giá ──
+cost:
+  title: "Cái giá của một Bản yêu cầu đào tạo mơ hồ"
+  intro: "Một quyết định chưa chốt ở đầu dự án thường không biến mất. Nó xuất hiện trở lại ở một vòng sửa tốn công hơn. Đôi khi bạn còn phải gánh cả những quyết định mà bản thân không có khả năng tác động."
+  # Mỗi thẻ: title (chưa chốt gì) → result (hậu quả)
+  risks:
+    - title: "Chưa chốt mục tiêu, sườn bài"
+      result: "Nội dung nào cũng thành cần thiết, cần thêm."
+    - title: "Chưa chốt phạm vi chỉnh sửa ở mỗi vòng"
+      result: "Feedback không có điểm dừng, đến khi chẳng thể gia hạn deadline thêm."
+    - title: "Chưa chốt người duyệt"
+      result: "Bản hoàn thiện bỗng có thêm người vào sửa."
+  closing: "Vì vậy, trước khi bắt tay vào thiết kế, bạn cần sự rõ ràng: vấn đề thực sự đằng sau yêu cầu đào tạo, tất cả những ai liên quan, và phạm vi công việc trước khi thật sự đi sâu vào thực thi."
+  why_title: "Vì sao các mẫu yêu cầu đào tạo có sẵn chưa đủ?"
+  why_intro: "Một mẫu sẵn trên mạng có thể cho bạn biết các hạng mục cần điền trong Bản yêu cầu đào tạo, nhưng không giúp bạn nhìn thấy vấn đề thực sự trên chính trường hợp của mình. Bạn có thể điền đủ các ô nhưng vẫn chưa rõ:"
+  why_items:
+    - "Như thế nào là một bản yêu cầu đã ĐỦ và ĐÚNG?"
+    - "Điều gì phải được xác nhận trước khi bạn đi sâu vào chi tiết và hoàn thiện?"
+    - "Đã điền hết các mục, phạm vi, nhiệm vụ, nhưng tổ chức của bạn không vận hành như thế thì nên làm thế nào?"
+  why_closing: "Giá trị của chương trình không nằm ở mẫu Bản yêu cầu đào tạo. Nó nằm ở việc Duyên giúp bạn nhìn ra những điểm nghẽn có khả năng thành một vòng sửa, và những điều bạn có thể làm tốt nhất trong chính bối cảnh dự án thật của mình."
+
+# ── 4. Sau 7 ngày bạn có gì ──
+outputs:
+  title: "Sau 7 ngày bạn có gì"
+  items:
+    - "01 Bản yêu cầu đào tạo ngắn gọn cho dự án đang làm"
+    - "01 bảng phân vai Người duyệt, Chuyên gia, Người thiết kế đào tạo theo từng đầu ra ở mỗi giai đoạn"
+    - "01 danh sách rào trước rủi ro"
+    - "Các email làm việc mẫu để xác nhận với Chuyên gia, Người yêu cầu, Người duyệt"
+    - "01 phiếu tự kiểm tra đã đủ thông tin để bắt đầu hay chưa, trước khi bỏ nhiều giờ vào outline và sản phẩm cuối cùng"
+
+# ── 5. Cách làm ──
+how:
+  title: "Cách làm"
+  steps:
+    - title: "Viết Bản yêu cầu đào tạo đầu tiên"
+      text: "Mang dự án thật vào, dự buổi nhóm thứ nhất và xác định những điểm phải rõ."
+    - title: "Chốt vai trò và điểm còn thiếu"
+      text: "Xác định ai duyệt, Chuyên gia chốt gì, Người thiết kế đào tạo làm gì và còn câu hỏi nào chưa có câu trả lời."
+      result: "Nhận góp ý lần 1, soạn câu hỏi gửi người phụ trách nội dung."
+    - title: "Sửa Bản yêu cầu đào tạo và chuẩn bị nội dung xác nhận"
+      text: "Dự buổi nhóm thứ hai, sửa bản yêu cầu, nhận góp ý lần 2 và chuẩn bị bản gửi cho người liên quan."
+  time: "Hoàn thành trong 7 ngày, tổng thời gian làm khoảng 3–4 giờ, tính cả hai buổi nhóm."
+  dates: "Thời gian triển khai: 20–27/10/2026."
+  includes_label: "Để tạo ra những đầu ra trên, chương trình gồm:"
+  sessions: "2 buổi nhóm trực tuyến 60 phút và 2 vòng góp ý viết"
+  templates_label: "03 mẫu thực hành, gồm:"
+  templates:
+    - "Mẫu Bản yêu cầu đào tạo một trang sáu mục kèm một case giả định đã điền"
+    - "Bảng phân vai theo từng đầu ra"
+    - "Phiếu tự kiểm tra năm câu cùng mẫu email hỏi Chuyên gia, Người yêu cầu, Người duyệt"
+
+# ── 6. Xem trước mẫu ──
+# Chưa có ảnh → khối này tự ẩn. Có ảnh thì bỏ file vào public/7-ngay/ và điền đường dẫn.
+preview:
+  title: "Xem trước mẫu Bản yêu cầu đào tạo"
+  image: ""
+  image_alt: "Mẫu Bản yêu cầu đào tạo một trang đã điền case giả định"
+
+# ── 7. Hai vòng góp ý + người hướng dẫn ──
+feedback:
+  title: "Hai vòng góp ý của Duyên"
+  intro: "Bạn không phải tự đoán Bản yêu cầu đào tạo của mình đã đủ rõ hay chưa. Bạn viết trên chính dự án thật, nhận góp ý lần 1, sửa lại, rồi nhận góp ý lần 2 trước khi gửi cho Chuyên gia, Người yêu cầu hoặc Người duyệt."
+  questions_label: "Những câu bạn có thể hỏi trong hai vòng này:"
+  questions:
+    - "Em điền thế này đã đủ chưa?"
+    - "Phần này Người thiết kế đào tạo có quyền quyết không?"
+    - "Chỗ này cần Chuyên gia chốt hay em tự làm?"
+    - "Bản yêu cầu đào tạo như vậy đã đủ để bắt đầu chưa?"
+  rules:
+    - "Mỗi người được góp ý viết hai vòng trên một Bản yêu cầu đào tạo tối đa hai trang."
+    - "Câu hỏi được gom trong nhóm và trả lời ở hai khung giờ ban ngày đã công bố."
+    - "Câu hỏi gửi đúng hạn được trả lời nốt trong một ngày làm việc sau Ngày 7."
+    - "Chương trình không có phiên 1:1."
+  about_title: "Về Duyên"
+  about:
+    - "Duyên làm đào tạo và phát triển nhân tài trong doanh nghiệp với hơn 6 năm kinh nghiệm, đi qua đa dạng ngành Bán lẻ, Tài chính tiêu dùng và Edtech Singapore, từng hướng dẫn newcomer, intern và nhân sự không chuyên đào tạo thực hiện trọn vẹn dự án."
+    - "Câu hỏi Duyên nhận được nhiều nhất từ đồng nghiệp là: khi đi từ nội dung tới storyboard và thiết kế, phần nào thuộc Người thiết kế đào tạo, phần nào thuộc Chuyên gia. Chương trình 7 ngày tập trung vào đúng bước đó, làm trên dự án thật của bạn."
+
+# ── 8. Ai phù hợp ──
+fit:
+  title: "Ai phù hợp"
+  intro: "Nhân sự L&D, ID, người làm đào tạo có dưới ba năm kinh nghiệm, đang được giao thiết kế một nội dung đào tạo nội bộ (ví dụ chuyển bộ slide thành khóa e-learning, workshop hoặc lớp offline) và phải làm việc với Chuyên gia trong 30 ngày tới."
+  yes_label: "Phù hợp nếu:"
+  yes:
+    - "Bạn đang có một dự án đào tạo thật sắp triển khai."
+    - "Bạn đã từng làm các dự án tương tự nhưng yêu cầu đào tạo hiện vẫn còn nhiều điểm chưa rõ."
+    - "Bạn có thể tự viết Bản yêu cầu đào tạo và có quyền trao đổi với Chuyên gia hoặc người phụ trách nội dung."
+  no_label: "Chưa phù hợp nếu:"
+  no:
+    - "Bạn chưa có dự án thật."
+    - "Bạn đang cần người làm thay Bản yêu cầu đào tạo hoặc thiết kế chương trình đào tạo."
+  privacy: "Khi gửi tài liệu để góp ý, vui lòng ẩn tên, số liệu và thông tin nội bộ."
+
+# ── 9. Giá và đăng ký ──
+pricing:
+  title: "Giá và đăng ký"
+  price: "990.000đ"
+  per: "/người"
+  includes: "Gồm 3 mẫu thực hành, 2 buổi nhóm và 2 vòng góp ý trên dự án thật của bạn."
+  limit: "Đợt này giới hạn tối đa 4 người để Duyên có thể đọc và góp ý trực tiếp từng Bản yêu cầu đào tạo."
+  details:
+    - label: "Hạn đăng ký"
+      text: "18/10/2026"
+    - label: "Lịch hai buổi nhóm"
+      text: "Ngày 24 và 26/10/2026"
+    - label: "Hoàn tiền"
+      text: "Nếu nội dung giao thiếu so với mô tả, Duyên khắc phục hoặc hoàn phần phí tương ứng."
