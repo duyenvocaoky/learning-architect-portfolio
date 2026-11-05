@@ -10,11 +10,18 @@ meta:
   title: "7 ngày làm rõ yêu cầu và phân vai cho dự án đào tạo — Duyên"
   description: "Mang một dự án đào tạo thật vào, sau 7 ngày bạn có Bản yêu cầu đào tạo, bảng phân vai và danh sách rào trước rủi ro. 990.000đ, tối đa 4 người."
 
-# Link Google Form đăng ký (dán link sau khi chạy script tạo form).
-# Để trống thì nút đăng ký sẽ cuộn xuống phần Giá và đăng ký.
-form_url: ""
+# ── Trạng thái đăng ký ──
+# closed: true  → mọi nút đăng ký hiện chữ "closed_label", mờ đi, không bấm được;
+#                 kèm link email để người quan tâm hỏi đợt sau.
+# closed: false → nút hiện chữ "cta" và dẫn tới form_url (link Google Form chị tự tạo).
+closed: true
+closed_label: "Đã đóng đăng ký đợt này"
+next_label: "Nhắn Duyên để nhận thông tin đợt sau"
+next_short: "Hỏi đợt sau"
+contact_email: "duyenvocaoky@gmail.com"
+next_subject: "Hỏi về đợt sau – 7 ngày làm rõ yêu cầu và phân vai đào tạo"
 
-# Chữ trên nút đăng ký — dùng chung cho mọi nút trên trang.
+form_url: ""
 cta: "ĐĂNG KÝ 7 NGÀY LÀM RÕ YÊU CẦU ĐÀO TẠO — 990.000Đ"
 
 # ── 1. Phần đầu ──

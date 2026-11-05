@@ -26,11 +26,25 @@ function Bubbles({ items, tone }) {
   );
 }
 
-function Cta({ href, ext, label, className = "" }) {
+/* Register button. When registration is closed it shows a dimmed, non-clickable
+   button plus an email link for people who want the next cohort. */
+function Cta({ c, href, ext, className = "" }) {
+  if (c.closed) {
+    return (
+      <div className={`lp-cta-block ${className}`}>
+        <span className={`btn lp-cta lp-closed ${className}`} aria-disabled="true">{c.closed_label}</span>
+        <a className="lp-next" href={mailtoNext(c)}>
+          {c.next_label}: {c.contact_email}
+        </a>
+      </div>
+    );
+  }
   return (
-    <a className={`btn primary lp-cta ${className}`} href={href} {...ext}>{label}</a>
+    <a className={`btn primary lp-cta ${className}`} href={href} {...ext}>{c.cta}</a>
   );
 }
+
+const mailtoNext = (c) => `mailto:${c.contact_email}?subject=${encodeURIComponent(c.next_subject)}`;
 
 function Band({ id, deep, children, narrow }) {
   return (
@@ -57,7 +71,11 @@ export default function Landing7NgayPage() {
             {common.brand}
             <span className="accent">.</span>
           </Link>
-          <a className="btn primary sm" href="#dang-ky">Đăng ký</a>
+          {c.closed ? (
+            <a className="btn primary sm" href={mailtoNext(c)}>{c.next_short}</a>
+          ) : (
+            <a className="btn primary sm" href="#dang-ky">Đăng ký</a>
+          )}
         </nav>
       </div>
 
@@ -73,7 +91,7 @@ export default function Landing7NgayPage() {
             <ul className="lp-chips">
               {c.hero.outputs.map((x) => <li key={x}>{x}</li>)}
             </ul>
-            <Cta href={formHref} ext={ext} label={c.cta} />
+            <Cta c={c} href={formHref} ext={ext} />
             <p className="lp-note">{c.hero.closing}</p>
           </header>
         </Band>
@@ -159,7 +177,7 @@ export default function Landing7NgayPage() {
               <List items={c.how.templates} />
             </div>
           </div>
-          <div className="lp-center"><Cta href={formHref} ext={ext} label={c.cta} /></div>
+          <div className="lp-center"><Cta c={c} href={formHref} ext={ext} /></div>
         </Band>
 
         {/* 6. Xem trước mẫu — hidden until there is an image */}
@@ -230,7 +248,7 @@ export default function Landing7NgayPage() {
                 </div>
               ))}
             </dl>
-            <Cta href={formHref} ext={ext} label={c.cta} className="wide" />
+            <Cta c={c} href={formHref} ext={ext} className="wide" />
           </div>
         </Band>
       </main>
@@ -240,7 +258,11 @@ export default function Landing7NgayPage() {
       {/* Sticky register bar */}
       <div className="lp-sticky" role="complementary">
         <span className="lp-sticky-price">{c.pricing.price}</span>
-        <a className="btn primary sm" href={formHref} {...ext}>Đăng ký</a>
+        {c.closed ? (
+          <a className="btn primary sm" href={mailtoNext(c)}>{c.next_short}</a>
+        ) : (
+          <a className="btn primary sm" href={formHref} {...ext}>Đăng ký</a>
+        )}
       </div>
     </div>
   );

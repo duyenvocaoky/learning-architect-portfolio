@@ -1,6 +1,6 @@
 # Kế hoạch tổng: Portfolio Coral
 
-*Cập nhật: 18/10/2026. Bản này thay cho kế hoạch gốc ngày 25/09/2026 (đã bị ghi đè trong file plan của Claude).*
+*Cập nhật: 05/11/2026 (thêm Giai đoạn 3b – Vercel). Trước đó: 18/10/2026. Bản này thay cho kế hoạch gốc ngày 25/09/2026 (đã bị ghi đè trong file plan của Claude).*
 
 ## 1. Bối cảnh
 - Trang portfolio cá nhân **Portfolio Coral** của Diên Diên (Learning Experience Architect), làm từ bản thiết kế Coral trên Claude Design, code bằng **Next.js** và xuất ra **trang tĩnh** (chỉ gồm HTML/CSS/JS).
@@ -58,6 +58,27 @@
 | 3.7 | **Chuyển kho GitHub về Riêng tư (Private)** | Diên Diên |
 | 3.8 | Kiểm tra lại: GitHub Pages tắt, kho không xem được từ ngoài, Cloudflare vẫn tự cập nhật khi đẩy code | Claude |
 
+### Giai đoạn 3b: Đưa trang lên Vercel ⏳ Chờ Diên Diên chốt (thêm ngày 05/11/2026)
+Diên Diên đề nghị thêm phương án đưa trang lên **Vercel** (một dịch vụ chuyên chạy trang Next.js, nối được với kho GitHub riêng tư).
+
+| # | Việc | Ai làm |
+|---|---|---|
+| 3b.1 | Chốt chọn **Vercel hay Cloudflare Pages** (chỉ giữ 1, xem cảnh báo bên dưới) | Diên Diên |
+| 3b.2 | Nếu chọn Vercel: tạo tài khoản Vercel bằng GitHub, bật 2FA, chọn gói phù hợp | Diên Diên |
+| 3b.3 | Nối Vercel với kho GitHub (chỉ cấp quyền đúng 1 kho), cài: build `npm run build`, thư mục `out`, `NODE_VERSION=22`, `SITE_URL=https://<tên>.vercel.app` | Diên Diên làm, Claude hướng dẫn |
+| 3b.4 | Bỏ bước đưa lên GitHub Pages trong quy trình GitHub (chỉ giữ phần kiểm tra), thêm header bảo mật cho Vercel (`vercel.json`) | Claude |
+| 3b.5 | Kiểm tra trang trên `….vercel.app` (EN/VI, blog, case study, landing `/7-ngay/`, điện thoại, header bảo mật) | Claude |
+| 3b.6 | Tắt GitHub Pages, rồi chuyển kho GitHub về **Riêng tư** (sau khi 3b.5 ổn) | Diên Diên |
+
+**⚠️ Cảnh báo: những điểm chưa nhất quán với mục đích ban đầu**
+1. **Gói miễn phí của Vercel (Hobby) không cho dùng thương mại.** Trang này đã có landing bán chương trình 990.000đ và kế hoạch bán hàng ở Giai đoạn 5, nên dùng gói Hobby là **trái điều khoản** của Vercel. Muốn dùng đúng luật phải lên gói **Pro (trả phí hằng tháng)**. Điều này lệch với mục tiêu "chạy miễn phí trước khi trả tiền cho Hostinger". Cloudflare Pages miễn phí và **cho phép** dùng thương mại.
+2. **Thêm một nhà cung cấp nữa.** Kế hoạch đang có GitHub Pages (đang chạy), Cloudflare Pages (Giai đoạn 3) và Hostinger (dự phòng). Thêm Vercel trái với nguyên tắc "càng ít bên liên quan càng tốt". Nên **chỉ chọn 1** trong Vercel hoặc Cloudflare.
+3. **Mã nguồn vẫn đang công khai.** Dù chọn Vercel hay Cloudflare, mục tiêu "giấu mã nguồn" chỉ đạt khi chuyển kho GitHub về Riêng tư (bước 3b.6 / 3.7). Trong lúc chờ, landing `/7-ngay/` đưa lên GitHub Pages thì code của nó cũng công khai.
+4. **Email công khai trên trang.** Landing `/7-ngay/` hiện ghi `duyenvocaoky@gmail.com` để người quan tâm hỏi đợt sau. Email công khai dễ bị gửi thư rác. Điều này chấp nhận được, nhưng nên biết trước.
+5. **Câu "Sau khi bấm đăng ký: bạn điền form…" trên landing không còn đúng**, vì đợt này đã đóng và không có form. Nên ẩn dòng này hoặc đổi thành hướng dẫn "nhắn email để nhận thông tin đợt sau".
+
+**Đề xuất của Claude:** chọn **Cloudflare Pages** thay cho Vercel, vì miễn phí, cho phép bán hàng và ít ràng buộc. Chỉ chọn Vercel nếu Diên Diên chấp nhận trả phí gói Pro.
+
 ### Giai đoạn 4: Hoàn thiện nội dung ⏳ Chờ tư liệu
 - Phần **AI** trên trang chủ vẫn là chữ mẫu. Cần tên và mô tả 2 dự án, hoặc tạm ẩn.
 - **4 case study** còn lại (Franchise, Coaching, Digital, University) đang ghi "sắp ra mắt".
@@ -78,6 +99,7 @@
 | 4b.3 | Dựng landing `/7-ngay/` theo cấu trúc trang mẫu (chữ giữ bản Doc), gắn link form vào nút đăng ký | Claude |
 | 4b.4 | Duyệt các chỗ đã biên tập ✅ Đã chốt "hơn 6 năm" kinh nghiệm; giữ nguyên lịch cũ (đã đóng đăng ký) | Diên Diên |
 | 4b.5 | Publish branch `landing-7-ngay` → PR → Merge | Diên Diên |
+| 4b.6 | Đợt này đã đóng đăng ký (05/11): nút đăng ký hiện "Đã đóng đăng ký đợt này" (mờ, không bấm được) + link email `duyenvocaoky@gmail.com` để hỏi đợt sau. Mở lại đợt mới: đổi `closed: false` và điền `form_url` trong `content/landing-7-ngay.yml` | Claude ✅ |
 
 Ghi chú: giữ nguyên các ngày trong bản Doc (hạn đăng ký 18/10, triển khai 20–27/10). Chưa cần thông tin thanh toán hay mã QR.
 

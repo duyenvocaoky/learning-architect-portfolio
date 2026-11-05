@@ -727,3 +727,13 @@ a.fact-value:hover { color: var(--coral); }
   .lp-chips li { width: 100%; }
 }
 .lp-sticky .btn { white-space: nowrap; }
+
+/* Registration closed: dimmed, non-clickable button + email link for the next cohort */
+.lp-cta-block { display: inline-flex; flex-direction: column; align-items: center; gap: 12px; }
+.lp-cta-block.wide { display: flex; width: 100%; margin-top: 28px; }
+.lp-cta-block.wide .lp-cta { margin-top: 0; }
+.lp-closed { background: var(--line-strong); color: var(--ink-muted); cursor: not-allowed; opacity: 0.75; }
+.lp-closed:hover { transform: none; }
+.lp-next { font-size: 15px; font-weight: 700; color: var(--coral); text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.lp-price .lp-closed { background: rgba(255, 247, 235, 0.18); color: var(--paper); }
+.lp-price .lp-next { color: var(--coral-wash); }
